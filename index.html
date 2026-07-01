@@ -177,7 +177,7 @@
     font-size:.65rem; font-weight:500; padding:.22rem .65rem; border-radius:999px;
     background:rgba(255,255,255,.15); color:rgba(255,255,255,.9);
   }
-  .card-links{ display:flex; align-items:flex-start; flex-direction:column; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; max-width:100%; }
+  .card-links{ display:flex; align-items:center; flex-wrap:wrap; gap:.5rem 1.2rem; margin-top:.7rem; max-width:100%; }
   .card-links a, .card-links span{
     font-size:.75rem; color:rgba(255,255,255,.8); text-decoration:none;
     display:inline-flex; align-items:center; gap:.35rem; font-weight:500;
@@ -193,11 +193,12 @@
   }
   .icon-btn:hover{ background:rgba(0,0,0,.6); }
 
-  @media (max-width:600px){
+  @media (max-width:680px){
     .card{ flex-direction:column; min-height:0; }
-    .card-photo-wrap{ width:100%; max-width:100%; min-width:0; height:200px; }
+    .card-photo-wrap{ width:100%; max-width:100%; min-width:0; height:190px; }
     .card-body{ padding:.9rem 1rem 1rem; }
-    .card-name{ font-size:1.1rem; }
+    .card-name{ font-size:1.15rem; }
+    .card-links{ flex-direction:column; align-items:flex-start; gap:.4rem; }
   }
 
   /* ---------- MODALS ---------- */
@@ -317,7 +318,7 @@
   footer span{ color:var(--g1); }
 
   /* Responsive */
-  @media (max-width:640px){
+  @media (max-width:680px){
     .hero{ padding:3rem 1rem 4.5rem; min-height:auto; }
     .hero-stats{ gap:1.5rem; }
     .controls{ flex-direction:column; align-items:stretch; }
@@ -723,7 +724,7 @@
         photoBlock +
         '<div class="card-body">' +
           '<div class="card-name">'+esc(m.nombre)+'</div>' +
-          (m.anio ? '<div class="card-year">'+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="card-year">Desde '+esc(m.anio)+'</div>' : '') +
           '<div class="card-areas">'+areas+extra+'</div>' +
           '<div class="card-links">'+links+'</div>' +
         '</div>' +
@@ -786,7 +787,7 @@
         bannerImg +
         '<div class="detail-banner-overlay"></div>' +
         '<div class="detail-banner-header">' +
-          (m.anio ? '<div class="detail-year">'+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="detail-year">Desde '+esc(m.anio)+'</div>' : '') +
           '<div class="detail-name">'+esc(m.nombre)+'</div>' +
         '</div>' +
       '</div>' +
