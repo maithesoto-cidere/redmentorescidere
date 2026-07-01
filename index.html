@@ -2057,7 +2057,11 @@ function exportData(){
 }
 
 async function resetEdits(){
-  if(!confirm("¿Seguro que quieres borrar todos los cambios guardados y volver a los datos originales? Esto afecta a todos los dispositivos.")) return;
+  if(!confirm("¿Seguro que quieres borrar todos los cambios y empezar de cero? Esto borra TODO en este navegador y en el servidor.")) return;
+  // Limpiar todo el localStorage del sitio
+  Object.keys(localStorage).forEach(k => {
+    if(k.startsWith("cidere_")) localStorage.removeItem(k);
+  });
   localStorage.removeItem(STORAGE_KEY);
   const empty = {edits:{}, additions:[], deletions:[]};
   await saveEditsToStorage(empty);
@@ -2065,6 +2069,7 @@ async function resetEdits(){
   buildLiveMentors();
   rebuildAreaOptions();
   render();
+  alert("¡Listo! Todo borrado. Ahora puedes empezar de cero.");
 }
 
 function openEditModal(mentor){
