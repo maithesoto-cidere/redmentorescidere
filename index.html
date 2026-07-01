@@ -150,24 +150,16 @@
     width:100%; height:100%; object-fit:cover; display:block;
     filter:saturate(1.08) contrast(1.02);
   }
-  .card-photo-wrap::after{
+  .card-photo-wrap:not(.card-photo-placeholder)::after{
     content:""; position:absolute; inset:0; pointer-events:none;
     background:linear-gradient(155deg, rgba(13,61,74,.32), rgba(27,107,114,.12) 55%, rgba(77,201,138,.16));
     mix-blend-mode:multiply;
   }
   .card-photo-placeholder{
     width:100%; height:100%; display:flex; align-items:center; justify-content:center;
-    background:
-      repeating-linear-gradient(135deg, rgba(255,255,255,.05) 0 2px, transparent 2px 14px),
-      rgba(0,0,0,.18);
   }
-  .avatar-circle{
-    width:56px; height:56px; border-radius:50%; flex-shrink:0;
-    background:rgba(255,255,255,.14); border:2px solid rgba(255,255,255,.4);
-    display:flex; align-items:center; justify-content:center;
-    font-size:1.2rem; font-weight:800; color:rgba(216,247,231,.85); letter-spacing:0;
-  }
-  .avatar-circle-lg{ width:120px; height:120px; font-size:2.6rem; border-width:3px; }
+  .initials-big{ font-size:2.2rem; font-weight:800; color:rgba(255,255,255,.55); letter-spacing:-.02em; }
+  .initials-big.lg{ font-size:3.4rem; }
   .detail-banner-placeholder{ background:linear-gradient(135deg,var(--g1),var(--g2),var(--g3)); display:flex; align-items:center; justify-content:center; }
   .card-body{ flex:1; padding:1.1rem 1.4rem; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; text-align:left; min-width:0; overflow:hidden; }
   .card-name{ font-size:1.3rem; font-weight:800; color:#fff; line-height:1.2; overflow-wrap:anywhere; }
@@ -716,15 +708,15 @@
     var fotoSrc = m.foto || "";
     var pos = m.posicionFoto || "50% 50%";
     var photoBlock = fotoSrc
-      ? '<div class="card-photo-wrap"><img src="'+esc(fotoSrc)+'" alt="'+esc(m.nombre)+'" style="object-position:'+esc(pos)+'" onerror="this.parentElement.innerHTML=\'<span class=avatar-circle>'+esc(initials(m.nombre))+'</span>\';this.parentElement.classList.add(\'card-photo-placeholder\')"></div>'
-      : '<div class="card-photo-wrap card-photo-placeholder"><span class="avatar-circle">'+esc(initials(m.nombre))+'</span></div>';
+      ? '<div class="card-photo-wrap"><img src="'+esc(fotoSrc)+'" alt="'+esc(m.nombre)+'" style="object-position:'+esc(pos)+'" onerror="this.parentElement.innerHTML=\'<span class=initials-big>'+esc(initials(m.nombre))+'</span>\';this.parentElement.classList.add(\'card-photo-placeholder\')"></div>'
+      : '<div class="card-photo-wrap card-photo-placeholder"><span class="initials-big">'+esc(initials(m.nombre))+'</span></div>';
     return (
       '<div class="card" data-id="'+esc(m.id)+'">' +
         editControls +
         photoBlock +
         '<div class="card-body">' +
           '<div class="card-name">'+esc(m.nombre)+'</div>' +
-          (m.anio ? '<div class="card-year">Desde '+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="card-year">'+esc(m.anio)+'</div>' : '') +
           '<div class="card-areas">'+areas+extra+'</div>' +
           '<div class="card-links">'+links+'</div>' +
         '</div>' +
@@ -781,13 +773,13 @@
     var pos = m.posicionFoto || "50% 50%";
     var bannerImg = m.foto
       ? '<div class="detail-banner-img" style="background-image:url(\''+esc(m.foto)+'\');background-position:'+esc(pos)+'"></div>'
-      : '<div class="detail-banner-img detail-banner-placeholder"><span class="avatar-circle avatar-circle-lg">'+esc(initials(m.nombre))+'</span></div>';
+      : '<div class="detail-banner-img detail-banner-placeholder"><span class="initials-big lg">'+esc(initials(m.nombre))+'</span></div>';
     $("#detailContent").innerHTML =
       '<div class="detail-banner">' +
         bannerImg +
         '<div class="detail-banner-overlay"></div>' +
         '<div class="detail-banner-header">' +
-          (m.anio ? '<div class="detail-year">Desde '+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="detail-year">'+esc(m.anio)+'</div>' : '') +
           '<div class="detail-name">'+esc(m.nombre)+'</div>' +
         '</div>' +
       '</div>' +
