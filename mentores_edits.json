@@ -101,12 +101,16 @@
     },
     {
       "id": "3014b53c-0e2c-4cef-95a2-7ed05d32bcb8",
-      "nombre": "Andrés",
+      "nombre": "Andrés Galindo",
       "genero": "",
-      "areas": [],
-      "linkedin": "",
-      "correo": "",
-      "comuna": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Estrategia creativa y posicionamiento de marca",
+        "Marketing digital"
+      ],
+      "linkedin": "https://www.linkedin.com/in/andr%C3%A9s-galindo-2388203a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "correo": "Andres@holayunta.cl",
+      "comuna": "Concepción",
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
