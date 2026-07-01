@@ -122,7 +122,7 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-
   flex:1;padding:1.1rem 1.4rem;display:flex;flex-direction:column;justify-content:center;
   min-width:0;
 }
-.card-label{font-size:.65rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+.card-label{display:none;font-size:.65rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
   color:var(--green);margin-bottom:.4rem}
 .card-name{font-size:1.35rem;font-weight:800;color:#fff;line-height:1.2;
   white-space:normal;overflow-wrap:break-word;word-break:break-word}
@@ -260,6 +260,12 @@ footer span{color:var(--g1)}
       </button>
     </div>
     <div class="edit-toolbar" id="editToolbar">
+      <div id="token_wrap" style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;width:100%;padding:.5rem .7rem;background:#fff8e1;border:1.5px solid #f0c040;border-radius:10px;margin-bottom:.3rem">
+        <span style="font-size:.78rem;font-weight:700;color:#7a5c00">🔑 Token GitHub:</span>
+        <input id="gh_token_input" type="password" placeholder="ghp_..." style="flex:1;min-width:180px;padding:.35rem .6rem;border:1.5px solid #ddd;border-radius:6px;font-size:.82rem;font-family:monospace"/>
+        <button onclick="saveGhToken()" style="padding:.35rem .8rem;background:#2EAE8F;color:#fff;border:none;border-radius:6px;font-size:.8rem;font-weight:700;cursor:pointer">Guardar</button>
+        <span id="token_status" style="font-size:.75rem;color:#2EAE8F"></span>
+      </div>
       <button class="edit-btn" onclick="openEditModal(null)">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
         Agregar mentor
@@ -340,10 +346,8 @@ footer span{color:var(--g1)}
     </div>
     <div class="edit-field">
       <label>Foto de perfil</label>
-      <input id="ef_foto_file" type="file" accept="image/*" onchange="handlePhotoUpload(event,'foto')"/>
-      <div style="margin-top:.5rem;font-size:.8rem;color:#666;">— o pega una URL de foto (Google Drive, etc.) —</div>
-<div class="edit-field"><label>Año de ingreso</label><input id="ef_anio" type="number" min="2000" max="2099" placeholder="Ej: 2024" style="width:140px"/></div>
-      <input id="ef_foto_url" type="url" placeholder="https://..." style="margin-top:.3rem;width:100%;padding:.4rem .6rem;border:1px solid #ccc;border-radius:6px;font-size:.85rem;" oninput="handlePhotoUrl(this.value)"/>
+      <input id="ef_foto_url" type="url" placeholder="Pega aquí la URL de la foto (LinkedIn, Google Drive...)" style="width:100%;padding:.5rem .7rem;border:1.5px solid #ccc;border-radius:8px;font-size:.9rem;margin-top:.3rem" oninput="handlePhotoUrl(this.value)"/>
+      <div class="edit-field-hint">Copia el enlace de la foto desde LinkedIn o Google Drive.</div>
       <div id="foto_preview_wrap" style="display:none;width:100%;height:160px;border-radius:10px;overflow:hidden;background:#eef5f0;margin-top:.6rem;border:2px solid #ddd">
        <img id="ef_foto_preview" style="width:100%;height:100%;object-fit:cover;object-position:center top"/>
       </div>
@@ -1932,7 +1936,7 @@ let editMode = false;
 let editingIndex = null;
 
 // ── ALMACENAMIENTO GITHUB ──
-const GH_TOKEN = "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";
+const GH_TOKEN = localStorage.getItem("gh_token_cidere") || "";
 const GH_REPO  = "maithesoto-cidere/redmentorescidere";
 const GH_FILE  = "mentores_edits.json";
 const GH_API   = "https://api.github.com/repos/" + GH_REPO + "/contents/" + GH_FILE;
@@ -2100,7 +2104,7 @@ function openEditModal(mentor){
     delete preview.dataset.value;
     delete preview.dataset.modal;
   }
-  document.getElementById("ef_foto_file").value = "";
+  
   document.getElementById("ef_foto_url").value = "";
   document.getElementById("ef_deleteBtn").style.display = mentor ? "block" : "none";
   document.getElementById("editOverlay").classList.add("open");
@@ -2140,7 +2144,7 @@ function handlePhotoUrl(url){
   preview.dataset.position = preview.dataset.position || "center top";
   preview.style.objectPosition = preview.dataset.position;
   showFotoPreview(directUrl);
-  document.getElementById("ef_foto_file").value = "";
+  
 }
 
 async function saveMentor(){
@@ -2306,7 +2310,6 @@ function render(){
       pencil+
       imgBlock+
       '<div class="card-info">'+
-        '<div class="card-label">'+(m.genero==="F"?"MENTORA":"MENTOR")+'</div>'+
         '<div class="card-name">'+m.nombre+'</div>'+(m.anio?'<div class="card-year">'+m.anio+'</div>':'')+
         '<div class="card-tags">'+tags+moreAreas+'</div>'+
         '<div class="card-meta">'+metaLinks+'</div>'+
@@ -2380,6 +2383,26 @@ function saveHeroEdit(){
     document.documentElement.style.setProperty("--g4",c4);
   }
 })();
+
+
+/* ── TOKEN GITHUB ── */
+function saveGhToken(){
+  var t = document.getElementById("gh_token_input").value.trim();
+  if(!t){ alert("Ingresa el token primero."); return; }
+  localStorage.setItem("gh_token_cidere", t);
+  document.getElementById("token_status").textContent = "✓ Guardado";
+  document.getElementById("token_wrap").style.background = "#e8f8f0";
+  document.getElementById("token_wrap").style.borderColor = "#2EAE8F";
+  setTimeout(()=>{ document.getElementById("token_wrap").style.display="none"; }, 1500);
+}
+function initTokenUI(){
+  var saved = localStorage.getItem("gh_token_cidere");
+  if(saved){
+    document.getElementById("token_wrap").style.display = "none";
+  } else {
+    document.getElementById("gh_token_input").value = "";
+  }
+}
 
 </script>
 </body>
