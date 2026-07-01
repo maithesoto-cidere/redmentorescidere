@@ -1936,7 +1936,7 @@ let editMode = false;
 let editingIndex = null;
 
 // ── ALMACENAMIENTO GITHUB ──
-const GH_TOKEN = localStorage.getItem("gh_token_cidere") || "";
+function GH_TOKEN(){ return localStorage.getItem("gh_token_cidere") || ""; }
 const GH_REPO  = "maithesoto-cidere/redmentorescidere";
 const GH_FILE  = "mentores_edits.json";
 const GH_API   = "https://api.github.com/repos/" + GH_REPO + "/contents/" + GH_FILE;
@@ -1947,7 +1947,7 @@ async function loadEdits(){
   let localData = null;
   try{ const r = localStorage.getItem(STORAGE_KEY); if(r) localData = JSON.parse(r); }catch(e){}
   try{
-    const res = await fetch(GH_API, {headers:{"Authorization":"token "+GH_TOKEN,"Accept":"application/vnd.github.v3+json"}});
+    const res = await fetch(GH_API, {headers:{"Authorization":"token "+GH_TOKEN(),"Accept":"application/vnd.github.v3+json"}});
     if(res.status===404){
       if(localData){ CURRENT_EDITS={edits:localData.edits||{},additions:localData.additions||[],deletions:localData.deletions||[]}; await saveEditsToStorage(CURRENT_EDITS); }
       return CURRENT_EDITS;
@@ -1977,14 +1977,14 @@ async function saveEditsToStorage(data){
   try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); }catch(e){}
   try{
     // Obtener SHA actualizado antes de guardar
-    const shaRes = await fetch(GH_API, {headers:{"Authorization":"token "+GH_TOKEN,"Accept":"application/vnd.github.v3+json"}});
+    const shaRes = await fetch(GH_API, {headers:{"Authorization":"token "+GH_TOKEN(),"Accept":"application/vnd.github.v3+json"}});
     if(shaRes.ok){ const sj = await shaRes.json(); GH_SHA = sj.sha; }
     const content = btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2))));
     const body = {message:"Actualizar directorio mentores", content};
     if(GH_SHA) body.sha = GH_SHA;
     const res = await fetch(GH_API, {
       method:"PUT",
-      headers:{"Authorization":"token "+GH_TOKEN,"Accept":"application/vnd.github.v3+json","Content-Type":"application/json"},
+      headers:{"Authorization":"token "+GH_TOKEN(),"Accept":"application/vnd.github.v3+json","Content-Type":"application/json"},
       body:JSON.stringify(body)
     });
     if(!res.ok){ let d=""; try{const b=await res.json();d=b.message||"";}catch(e3){} throw new Error("HTTP "+res.status+(d?" — "+d:"")); }
