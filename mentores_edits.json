@@ -114,6 +114,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "8d1c155f-e48d-4220-bbfa-8086a5d55297",
+      "nombre": "Ariela Dymensztain",
+      "genero": "",
+      "areas": [
+        "Coaching y acompañamiento profesional",
+        "Desarrollo de talento",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ariela-dymensztain-ad/",
+      "correo": "ariela.dymensztain@adconsulting.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
