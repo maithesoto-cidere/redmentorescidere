@@ -183,11 +183,11 @@
   }
   .icon-btn:hover{ background:rgba(0,0,0,.6); }
 
-  @media (max-width:680px){
+  @media (max-width:600px){
     .card{ flex-direction:column; min-height:0; }
-    .card-photo-wrap{ width:100%; max-width:100%; min-width:0; height:190px; }
+    .card-photo-wrap{ width:100%; max-width:100%; min-width:0; height:200px; }
     .card-body{ padding:.9rem 1rem 1rem; }
-    .card-name{ font-size:1.15rem; }
+    .card-name{ font-size:1.1rem; }
   }
 
   /* ---------- MODALS ---------- */
@@ -307,7 +307,7 @@
   footer span{ color:var(--g1); }
 
   /* Responsive */
-  @media (max-width:680px){
+  @media (max-width:640px){
     .hero{ padding:3rem 1rem 4.5rem; min-height:auto; }
     .hero-stats{ gap:1.5rem; }
     .controls{ flex-direction:column; align-items:stretch; }
@@ -713,7 +713,7 @@
         photoBlock +
         '<div class="card-body">' +
           '<div class="card-name">'+esc(m.nombre)+'</div>' +
-          (m.anio ? '<div class="card-year">Desde '+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="card-year">'+esc(m.anio)+'</div>' : '') +
           '<div class="card-areas">'+areas+extra+'</div>' +
           '<div class="card-links">'+links+'</div>' +
         '</div>' +
@@ -776,7 +776,7 @@
         bannerImg +
         '<div class="detail-banner-overlay"></div>' +
         '<div class="detail-banner-header">' +
-          (m.anio ? '<div class="detail-year">Desde '+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="detail-year">'+esc(m.anio)+'</div>' : '') +
           '<div class="detail-name">'+esc(m.nombre)+'</div>' +
         '</div>' +
       '</div>' +
