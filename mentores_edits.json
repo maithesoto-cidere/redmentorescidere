@@ -98,6 +98,18 @@
       "foto": "https://media.licdn.com/dms/image/v2/D4E03AQEOoWw7irdoPA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707239273526?e=1784764800&v=beta&t=yuCj4V0RY2DuixI_JVeVRuCXGnVkkXRk9EYeqDsZZRY",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "3014b53c-0e2c-4cef-95a2-7ed05d32bcb8",
+      "nombre": "Andrés",
+      "genero": "",
+      "areas": [],
+      "linkedin": "",
+      "correo": "",
+      "comuna": "",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
