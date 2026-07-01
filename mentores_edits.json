@@ -1,0 +1,33 @@
+{
+  "config": {
+    "title": "Red de Mentores CIDERE Biobío",
+    "subtitle": "Red de Mentores · CIDERE Biobío · 2025 - 2026",
+    "titleSize": "md",
+    "colors": [
+      "#4DC98A",
+      "#2EAE8F",
+      "#1B6B72",
+      "#0D3D4A"
+    ]
+  },
+  "mentores": [
+    {
+      "id": "aae59fd6-a26a-4d17-8c0d-26894f765ae4",
+      "nombre": "Alberto Jarpa Leiva",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Licitaciones y mercado público"
+      ],
+      "linkedin": "https://www.linkedin.com/in/alberto-jarpa-a1b44950/",
+      "correo": "alberto.jarpa@yahoo.com",
+      "comuna": "Chillán",
+      "foto": "https://media.licdn.com/dms/image/v2/C5103AQF-isVyZzVeZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437242509?e=1784764800&v=beta&t=XdvSJLlBVH6lsrPBhWHI1lInzPoIelyw87wlECJ0GpU",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
+    }
+  ]
+}
