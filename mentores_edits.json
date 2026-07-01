@@ -2,12 +2,12 @@
   "config": {
     "title": "Red de Mentores CIDERE Biobío",
     "subtitle": "Red de Mentores · CIDERE Biobío · 2025 - 2026",
-    "titleSize": "md",
+    "titleSize": "lg",
     "colors": [
-      "#4DC98A",
-      "#2EAE8F",
-      "#1B6B72",
-      "#0D3D4A"
+      "#4dc98a",
+      "#2eae8f",
+      "#1b6b72",
+      "#0d3d4a"
     ]
   },
   "mentores": [
