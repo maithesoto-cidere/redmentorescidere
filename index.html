@@ -237,7 +237,12 @@
     width:100%; padding:.65rem .8rem; border:2px solid var(--borde); border-radius:10px;
     font-family:var(--sans); font-size:.9rem; color:var(--tinta); outline:none;
   }
-  .form-row input:focus, .form-row select:focus{ border-color:var(--g2); }
+  .form-row textarea{
+    width:100%; padding:.65rem .8rem; border:2px solid var(--borde); border-radius:10px;
+    font-family:var(--sans); font-size:.9rem; color:var(--tinta); outline:none;
+    resize:vertical; min-height:90px;
+  }
+  .form-row input:focus, .form-row select:focus, .form-row textarea:focus{ border-color:var(--g2); }
   .form-grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
   .foto-preview-wrap{ display:flex; gap:16px; align-items:flex-start; margin-top:6px; flex-wrap:wrap; }
   .foto-preview{
@@ -390,7 +395,7 @@
         </div>
         <div class="form-row">
           <label for="fAreas">Áreas de expertise (separadas por coma)</label>
-          <input type="text" id="fAreas" placeholder="Marketing, Finanzas, Emprendimiento">
+          <textarea id="fAreas" rows="4" placeholder="Marketing, Finanzas, Emprendimiento"></textarea>
         </div>
         <div class="form-grid-2">
           <div class="form-row">
@@ -695,7 +700,7 @@
         photoBlock +
         '<div class="card-body">' +
           '<div class="card-name">'+esc(m.nombre)+'</div>' +
-          (m.anio ? '<div class="card-year">Mentor/a desde '+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="card-year">Desde '+esc(m.anio)+'</div>' : '') +
           '<div class="card-areas">'+areas+extra+'</div>' +
           '<div class="card-links">'+links+'</div>' +
         '</div>' +
@@ -758,7 +763,7 @@
         bannerImg +
         '<div class="detail-banner-overlay"></div>' +
         '<div class="detail-banner-header">' +
-          (m.anio ? '<div class="detail-year">Mentor/a desde '+esc(m.anio)+'</div>' : '') +
+          (m.anio ? '<div class="detail-year">Desde '+esc(m.anio)+'</div>' : '') +
           '<div class="detail-name">'+esc(m.nombre)+'</div>' +
         '</div>' +
       '</div>' +
