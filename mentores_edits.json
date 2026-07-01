@@ -164,6 +164,21 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "9aae24e7-1b31-4b00-a0d3-3881718b8f3a",
+      "nombre": "Bryan Smith Penroz",
+      "genero": "",
+      "areas": [
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera"
+      ],
+      "linkedin": "https://www.linkedin.com/in/bryan-smith-penroz/",
+      "correo": "Bryan.smith.penroz@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": 2021,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
