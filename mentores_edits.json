@@ -130,6 +130,21 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "8675efe6-cf3e-4e9e-84a1-c972408a7570",
+      "nombre": "Beatriz Llanos Berrocal",
+      "genero": "",
+      "areas": [
+        "Formalización y compliance",
+        "Gestión contractual y legal corporativa"
+      ],
+      "linkedin": "https://www.linkedin.com/in/beatriz-llanos-berrocal-0b371b67/",
+      "correo": "bllanosberrocal@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
