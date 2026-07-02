@@ -243,6 +243,23 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "8019020e-0712-4a56-8435-9965fbc47dfc",
+      "nombre": "Carlos Inostroza Ruiz",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Licitaciones y mercado público",
+        "Desarrollo de talento",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/cinostrozar/",
+      "correo": "cinostrozar@maxing.cl",
+      "comuna": "Talcahuano",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
