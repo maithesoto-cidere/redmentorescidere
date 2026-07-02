@@ -10,5 +10,18 @@
       "#0D3D4A"
     ]
   },
-  "mentores": []
+  "mentores": [
+    {
+      "id": "e7174597-856d-41c8-a4f2-010a58dfe1b9",
+      "nombre": "maithe",
+      "genero": "",
+      "areas": [],
+      "linkedin": "",
+      "correo": "",
+      "comuna": "",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
+    }
+  ]
 }
