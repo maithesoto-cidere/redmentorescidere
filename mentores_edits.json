@@ -10,18 +10,5 @@
       "#0d3d4a"
     ]
   },
-  "mentores": [
-    {
-      "id": "e7174597-856d-41c8-a4f2-010a58dfe1b9",
-      "nombre": "maithe",
-      "genero": "",
-      "areas": [],
-      "linkedin": "",
-      "correo": "",
-      "comuna": "",
-      "foto": "https://media.licdn.com/dms/image/v2/D4E03AQEOoWw7irdoPA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707239273526?e=1784764800&v=beta&t=yuCj4V0RY2DuixI_JVeVRuCXGnVkkXRk9EYeqDsZZRY",
-      "anio": null,
-      "posicionFoto": "50% 50%"
-    }
-  ]
+  "mentores": []
 }
