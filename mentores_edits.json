@@ -373,6 +373,24 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "5d2b10c7-ed61-41b3-97db-8a033fd49725",
+      "nombre": "Claudio Basualto Muñoz",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding",
+        "Desarrollo comercial",
+        "Flujo de caja",
+        "Planificación financiera"
+      ],
+      "linkedin": "http://linkedin.com/in/claudio-basualto-a89b06199",
+      "correo": "cbasualto@urbani.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2023,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
