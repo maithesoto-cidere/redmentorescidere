@@ -160,6 +160,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "bd92fd74-8086-475c-944d-a5518c2b1cbe",
+      "nombre": "Blas Pereira Vidal",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Innovación y desarrollo tecnológico",
+        "Formalización y compliance",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/blas-pereira-vidal-7a172031",
+      "correo": "blaspereira@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
