@@ -260,6 +260,28 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "50865a2a-e3c0-4292-89d5-e00bbfffd9e0",
+      "nombre": "Carlos Inostroza Veloso",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Inteligencia Artificial",
+        "Transformación digital",
+        "Flujo de caja",
+        "Planificación financiera",
+        "Formalización",
+        "Compliance",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/carlos-inostroza-veloso-0b954195/",
+      "correo": "carlos.inovs@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
