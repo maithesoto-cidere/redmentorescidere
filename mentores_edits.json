@@ -317,6 +317,32 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "eebbe24c-f9fe-4eb8-a30d-87af3e0711e3",
+      "nombre": "Claudia Brito Serrano",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Estrategia",
+        "Gestión de proyectos",
+        "Investigación de mercados",
+        "Transformación digital",
+        "Costeo",
+        "Legal",
+        "RRHH",
+        "Cultura",
+        "Coaching",
+        "Procesos",
+        "Operaciones",
+        "Sustentabilidad"
+      ],
+      "linkedin": "",
+      "correo": "cbrito@brialempresas.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
