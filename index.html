@@ -20,6 +20,18 @@
     --ambar:#E8871E;
     --radio:18px;
     --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+    /* Variables de layout ajustables desde el panel de diseño (modo edición) */
+    --font-scale:1;
+    --section-scale:1;
+    --card-min-h:100px;
+    --card-pad-y:.6rem;
+    --card-pad-x:1rem;
+    --card-gap:.45rem;
+    --container-max:1240px;
+    --photo-w:175px;
+    --initials-size:1.9rem;
+    --card-radius:14px;
   }
   html,body{ margin:0; padding:0; overflow-x:hidden; max-width:100%; }
   body{
@@ -109,6 +121,16 @@
   .export-menu button:last-child{ border-bottom:none; }
   .export-menu button:hover{ background:#eef5f0; }
 
+  .design-panel-modal{ max-width:640px; }
+  .design-panel-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1rem 1.4rem; margin-top:.5rem; }
+  .slider-row label{
+    display:flex; justify-content:space-between; font-size:.72rem; font-weight:700;
+    letter-spacing:.02em; text-transform:none; color:var(--tinta-suave); margin-bottom:.35rem;
+  }
+  .slider-row label span{ color:var(--g3); font-weight:800; }
+  .slider-row input[type="range"]{ width:100%; accent-color:var(--g2); }
+  @media (max-width:640px){ .design-panel-grid{ grid-template-columns:1fr; } }
+
   .home-edit-btn{
     position:relative; margin-top:1.8rem; z-index:2;
     background:rgba(255,255,255,0.12);
@@ -118,14 +140,14 @@
   }
 
   /* ---------- CONTROLES ---------- */
-  .directorio{ padding:1.8rem 0 3rem; }
-  .inner{ width:94%; max-width:1240px; margin:0 auto; padding:0; }
-  .controls{ display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin-bottom:.65rem; }
+  .directorio{ padding:1.6rem 0 2.4rem; }
+  .inner{ width:94%; max-width:var(--container-max); margin:0 auto; padding:0; }
+  .controls{ display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin-bottom:.5rem; }
   .search-wrap{ position:relative; flex:1; min-width:170px; }
   .search-wrap svg{ position:absolute; left:.7rem; top:50%; transform:translateY(-50%); color:var(--tinta-suave); pointer-events:none; }
   #searchInput{
     width:100%; padding:.48rem .7rem .48rem 2rem; border:1.5px solid var(--borde); border-radius:9px;
-    background:#fff; font-family:var(--sans); font-size:.74rem; color:var(--tinta); outline:none;
+    background:#fff; font-family:var(--sans); font-size:.8rem; color:var(--tinta); outline:none;
     transition:border-color .2s;
   }
   #searchInput:focus{ border-color:var(--g2); }
@@ -133,34 +155,34 @@
   .sel{
     padding:.46rem 1.5rem .46rem .65rem; border:1.5px solid var(--borde); border-radius:9px;
     background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%235A8070' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right .6rem center;
-    font-family:var(--sans); font-size:.7rem; color:var(--tinta); outline:none; cursor:pointer;
+    font-family:var(--sans); font-size:.78rem; color:var(--tinta); outline:none; cursor:pointer;
     appearance:none; -webkit-appearance:none;
   }
   .sel:focus{ border-color:var(--g2); }
   .btn-add{
     padding:.46rem .8rem; border:1.5px solid var(--g2); border-radius:9px; background:#fff; color:var(--g3);
-    font-family:var(--sans); font-size:.7rem; font-weight:600; white-space:nowrap;
+    font-family:var(--sans); font-size:.78rem; font-weight:600; white-space:nowrap;
     transition:background .2s, color .2s;
   }
   .btn-add:hover{ background:var(--g2); color:#fff; }
-  .result-info{ font-size:.65rem; color:var(--tinta-suave); margin-bottom:.65rem; }
+  .result-info{ font-size:.72rem; color:var(--tinta-suave); margin-bottom:.5rem; }
   .result-info strong{ color:var(--g3); }
 
   /* ---------- GRID / TARJETAS ---------- */
-  .grid{ width:94%; max-width:1240px; margin:0 auto 50px; padding:0; }
+  .grid{ width:94%; max-width:var(--container-max); margin:0 auto 40px; padding:0; }
   .empty-state{ text-align:center; padding:4rem 1rem; color:var(--tinta-suave); }
   .card{
     display:flex;
-    border-radius:14px; overflow:hidden; cursor:pointer;
-    align-items:stretch; min-height:106px;
+    border-radius:var(--card-radius); overflow:hidden; cursor:pointer;
+    align-items:stretch; min-height:var(--card-min-h);
     background:linear-gradient(135deg, var(--g1) 0%, var(--g2) 40%, var(--g3) 100%);
     transition:transform .2s, box-shadow .2s;
-    margin-bottom:.55rem; position:relative;
+    margin-bottom:var(--card-gap); position:relative;
   }
   .card:hover{ transform:translateY(-3px) scale(1.005); box-shadow:0 12px 36px rgba(13,59,35,.18); }
   /* Columna izquierda: ancho fijo, ocupa toda la altura, centra su contenido (foto o iniciales) con Flexbox */
   .card-photo-wrap{
-    flex-shrink:0; width:185px; min-width:185px; max-width:185px;
+    flex-shrink:0; width:var(--photo-w); min-width:var(--photo-w); max-width:var(--photo-w);
     display:flex; align-items:center; justify-content:center;
     position:relative; overflow:hidden;
   }
@@ -173,33 +195,32 @@
     background:linear-gradient(155deg, rgba(13,61,74,.32), rgba(27,107,114,.12) 55%, rgba(77,201,138,.16));
     mix-blend-mode:multiply;
   }
-  .initials-big{ font-size:1.6rem; font-weight:800; color:rgba(255,255,255,.55); letter-spacing:-.02em; }
+  .initials-big{ font-size:var(--initials-size); font-weight:800; color:rgba(255,255,255,.55); letter-spacing:-.02em; }
   .initials-big.lg{ font-size:3.4rem; }
   .detail-banner-placeholder{ background:linear-gradient(135deg,var(--g1),var(--g2),var(--g3)); display:flex; align-items:center; justify-content:center; }
-  .card-body{ flex:1; padding:.7rem 1.05rem; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; text-align:left; min-width:0; overflow:hidden; }
-  .card-name{ font-size:.96rem; font-weight:800; color:#fff; line-height:1.2; overflow-wrap:anywhere; }
-  .card-year{ font-size:.54rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.65); margin-top:.2rem; }
-  .card-areas{ display:flex; flex-wrap:wrap; gap:.22rem; margin-top:.35rem; }
+  .card-body{ flex:1; padding:var(--card-pad-y) var(--card-pad-x); display:flex; flex-direction:column; justify-content:center; align-items:flex-start; text-align:left; min-width:0; overflow:hidden; }
+  .card-name{ font-size:calc(1.12rem * var(--font-scale)); font-weight:800; color:#fff; line-height:1.2; overflow-wrap:anywhere; }
+  .card-year{ font-size:calc(.58rem * var(--font-scale)); font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.65); margin-top:calc(.25rem * var(--section-scale)); }
+  .card-areas{ display:flex; flex-wrap:wrap; gap:calc(.28rem * var(--section-scale)); margin-top:calc(.45rem * var(--section-scale)); }
   .chip{
-    font-size:.58rem; font-weight:500; padding:.16rem .5rem; border-radius:999px;
+    font-size:calc(.62rem * var(--font-scale)); font-weight:500; padding:calc(.2rem * var(--section-scale)) calc(.6rem * var(--section-scale)); border-radius:999px;
     background:rgba(255,255,255,.15); color:rgba(255,255,255,.9);
   }
-  .card-links{ display:flex; align-items:center; flex-wrap:wrap; gap:.3rem .8rem; margin-top:.4rem; max-width:100%; }
+  .card-links{ display:flex; align-items:center; flex-wrap:wrap; gap:calc(.4rem * var(--section-scale)) calc(1rem * var(--section-scale)); margin-top:calc(.55rem * var(--section-scale)); max-width:100%; }
   .card-links a, .card-links span{
-    font-size:.62rem; color:rgba(255,255,255,.8); text-decoration:none;
-    display:inline-flex; align-items:center; gap:.25rem; font-weight:500;
+    font-size:calc(.68rem * var(--font-scale)); color:rgba(255,255,255,.8); text-decoration:none;
+    display:inline-flex; align-items:center; gap:.3rem; font-weight:500;
     max-width:100%; overflow-wrap:anywhere;
   }
   .card-links a:hover{ color:#fff; }
-  .card-links svg{ flex-shrink:0; width:11px; height:11px; }
+  .card-links svg{ flex-shrink:0; width:12px; height:12px; }
   .card-edit-controls{ position:absolute; top:.35rem; right:.35rem; display:flex; gap:.3rem; z-index:3; }
   .icon-btn{
-    width:22px; height:22px; border-radius:50%; border:none;
+    width:24px; height:24px; border-radius:50%; border:none;
     background:rgba(0,0,0,.35); color:#fff; backdrop-filter:blur(2px);
     display:flex; align-items:center; justify-content:center;
   }
   .icon-btn:hover{ background:rgba(0,0,0,.6); }
-  .icon-btn svg{ width:11px; height:11px; }
 
   @media (max-width:680px){
     .card{ flex-direction:column; min-height:0; }
@@ -390,6 +411,7 @@
             <button type="button" data-export="js">Descargar JavaScript</button>
           </div>
         </div>
+        <button class="btn-add edit-only hidden" id="designPanelBtn" type="button">⚙ Ajustes de diseño</button>
       </div>
       <div class="result-info">Mostrando <strong id="countTxt">0</strong> mentores</div>
       <main class="grid" id="grid"></main>
@@ -531,6 +553,62 @@
     </div>
   </div>
 
+  <!-- Modal: panel de ajustes de diseño -->
+  <div class="modal-overlay hidden" id="designPanelModal">
+    <div class="modal design-panel-modal">
+      <button class="modal-close" data-close="designPanelModal">&times;</button>
+      <h2>Ajustes de diseño</h2>
+      <p class="token-note">Los cambios se ven en tiempo real. Guarda para dejarlos aplicados para todos.</p>
+      <div class="design-panel-grid">
+        <div class="slider-row">
+          <label>Tamaño de tipografía <span id="valFontScale">100%</span></label>
+          <input type="range" id="rngFontScale" min="70" max="140" step="1" value="100">
+        </div>
+        <div class="slider-row">
+          <label>Espaciado entre elementos <span id="valSectionScale">100%</span></label>
+          <input type="range" id="rngSectionScale" min="50" max="160" step="1" value="100">
+        </div>
+        <div class="slider-row">
+          <label>Altura de tarjeta <span id="valCardHeight">100px</span></label>
+          <input type="range" id="rngCardHeight" min="70" max="220" step="1" value="100">
+        </div>
+        <div class="slider-row">
+          <label>Padding interno vertical <span id="valPadY">0.6rem</span></label>
+          <input type="range" id="rngPadY" min="0" max="30" step="1" value="6">
+        </div>
+        <div class="slider-row">
+          <label>Padding interno horizontal <span id="valPadX">1rem</span></label>
+          <input type="range" id="rngPadX" min="0" max="40" step="1" value="10">
+        </div>
+        <div class="slider-row">
+          <label>Separación entre tarjetas <span id="valCardGap">0.45rem</span></label>
+          <input type="range" id="rngCardGap" min="0" max="30" step="1" value="4">
+        </div>
+        <div class="slider-row">
+          <label>Ancho máximo del contenedor <span id="valContainer">1240px</span></label>
+          <input type="range" id="rngContainer" min="960" max="1800" step="10" value="1240">
+        </div>
+        <div class="slider-row">
+          <label>Ancho columna foto/iniciales <span id="valPhotoW">175px</span></label>
+          <input type="range" id="rngPhotoW" min="120" max="280" step="5" value="175">
+        </div>
+        <div class="slider-row">
+          <label>Tamaño de iniciales <span id="valInitials">1.9rem</span></label>
+          <input type="range" id="rngInitials" min="10" max="40" step="1" value="19">
+        </div>
+        <div class="slider-row">
+          <label>Radio de bordes <span id="valRadius">14px</span></label>
+          <input type="range" id="rngRadius" min="0" max="32" step="1" value="14">
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="button" class="btn-primary" id="saveDesignPanelBtn">Guardar ajustes</button>
+        <button type="button" class="btn-secondary" id="resetDesignPanelBtn">Restablecer</button>
+        <button type="button" class="btn-secondary" data-close="designPanelModal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Modal: token de GitHub -->
   <div class="modal-overlay hidden" id="tokenModal">
     <div class="modal">
@@ -577,12 +655,20 @@
     lg: "clamp(3rem,9vw,7.4rem)"
   };
 
+  function defaultLayout(){
+    return {
+      fontScale:100, sectionScale:100, cardHeight:100, padY:6, padX:10,
+      cardGap:4, container:1240, photoW:175, initials:19, radius:14
+    };
+  }
+
   function defaultConfig(){
     return {
       title:"Red de Mentores CIDERE Biobío",
       subtitle:"Red de Mentores · CIDERE Biobío · 2025 - 2026",
       titleSize:"md",
-      colors:["#4DC98A","#2EAE8F","#1B6B72","#0D3D4A"]
+      colors:["#4DC98A","#2EAE8F","#1B6B72","#0D3D4A"],
+      layout: defaultLayout()
     };
   }
 
@@ -632,7 +718,12 @@
     btn.addEventListener("click", function(){ closeModal(btn.getAttribute("data-close")); });
   });
   $all(".modal-overlay").forEach(function(ov){
-    ov.addEventListener("click", function(e){ if(e.target === ov) ov.classList.add("hidden"); });
+    ov.addEventListener("click", function(e){
+      if(e.target === ov){
+        ov.classList.add("hidden");
+        if(ov.id === "designPanelModal") applyLayoutVars(state.config.layout);
+      }
+    });
   });
 
   function sortMentores(){
@@ -650,6 +741,21 @@
   }
 
   // ---------- Render ----------
+  function applyLayoutVars(layout){
+    var l = Object.assign(defaultLayout(), layout || {});
+    var root = document.documentElement.style;
+    root.setProperty("--font-scale", (l.fontScale/100));
+    root.setProperty("--section-scale", (l.sectionScale/100));
+    root.setProperty("--card-min-h", l.cardHeight + "px");
+    root.setProperty("--card-pad-y", (l.padY/10) + "rem");
+    root.setProperty("--card-pad-x", (l.padX/10) + "rem");
+    root.setProperty("--card-gap", (l.cardGap/10) + "rem");
+    root.setProperty("--container-max", l.container + "px");
+    root.setProperty("--photo-w", l.photoW + "px");
+    root.setProperty("--initials-size", (l.initials/10) + "rem");
+    root.setProperty("--card-radius", l.radius + "px");
+  }
+
   function applyConfig(){
     $("#heroTitle").textContent = state.config.title;
     $("#heroSubtitle").textContent = state.config.subtitle;
@@ -660,6 +766,7 @@
     document.documentElement.style.setProperty("--g4", c[3]);
     var sizeKey = state.config.titleSize || "md";
     document.documentElement.style.setProperty("--title-size", TITLE_SIZES[sizeKey] || TITLE_SIZES.md);
+    applyLayoutVars(state.config.layout);
   }
 
   function renderStats(){
@@ -955,15 +1062,71 @@
   });
   $("#homeForm").addEventListener("submit", function(e){
     e.preventDefault();
-    state.config = {
-      title: $("#hTitle").value.trim() || defaultConfig().title,
-      subtitle: $("#hSubtitle").value.trim() || defaultConfig().subtitle,
-      titleSize: $("#hTitleSize").value || "md",
-      colors: [$("#hColor1").value, $("#hColor2").value, $("#hColor3").value, $("#hColor4").value]
-    };
+    state.config.title = $("#hTitle").value.trim() || defaultConfig().title;
+    state.config.subtitle = $("#hSubtitle").value.trim() || defaultConfig().subtitle;
+    state.config.titleSize = $("#hTitleSize").value || "md";
+    state.config.colors = [$("#hColor1").value, $("#hColor2").value, $("#hColor3").value, $("#hColor4").value];
     applyConfig();
     closeModal("homeEditModal");
     saveToGitHub("Actualizar pantalla principal");
+  });
+
+  // ---------- Panel de ajustes de diseño ----------
+  var DESIGN_SLIDERS = [
+    { id:"rngFontScale", key:"fontScale", val:"valFontScale", fmt:function(v){ return v + "%"; } },
+    { id:"rngSectionScale", key:"sectionScale", val:"valSectionScale", fmt:function(v){ return v + "%"; } },
+    { id:"rngCardHeight", key:"cardHeight", val:"valCardHeight", fmt:function(v){ return v + "px"; } },
+    { id:"rngPadY", key:"padY", val:"valPadY", fmt:function(v){ return (v/10) + "rem"; } },
+    { id:"rngPadX", key:"padX", val:"valPadX", fmt:function(v){ return (v/10) + "rem"; } },
+    { id:"rngCardGap", key:"cardGap", val:"valCardGap", fmt:function(v){ return (v/10) + "rem"; } },
+    { id:"rngContainer", key:"container", val:"valContainer", fmt:function(v){ return v + "px"; } },
+    { id:"rngPhotoW", key:"photoW", val:"valPhotoW", fmt:function(v){ return v + "px"; } },
+    { id:"rngInitials", key:"initials", val:"valInitials", fmt:function(v){ return (v/10) + "rem"; } },
+    { id:"rngRadius", key:"radius", val:"valRadius", fmt:function(v){ return v + "px"; } }
+  ];
+
+  function fillDesignPanel(layout){
+    var l = Object.assign(defaultLayout(), layout || {});
+    DESIGN_SLIDERS.forEach(function(s){
+      $("#" + s.id).value = l[s.key];
+      $("#" + s.val).textContent = s.fmt(l[s.key]);
+    });
+  }
+  function readDesignPanel(){
+    var l = {};
+    DESIGN_SLIDERS.forEach(function(s){
+      l[s.key] = parseFloat($("#" + s.id).value);
+    });
+    return l;
+  }
+
+  $("#designPanelBtn").addEventListener("click", function(){
+    fillDesignPanel(state.config.layout);
+    openModal("designPanelModal");
+  });
+
+  DESIGN_SLIDERS.forEach(function(s){
+    $("#" + s.id).addEventListener("input", function(){
+      $("#" + s.val).textContent = s.fmt($("#" + s.id).value);
+      applyLayoutVars(readDesignPanel());
+    });
+  });
+
+  $("#saveDesignPanelBtn").addEventListener("click", function(){
+    state.config.layout = readDesignPanel();
+    applyLayoutVars(state.config.layout);
+    saveToGitHub("Actualizar ajustes de diseño");
+    showToast("Ajustes de diseño guardados ✓");
+  });
+
+  $("#resetDesignPanelBtn").addEventListener("click", function(){
+    var d = defaultLayout();
+    fillDesignPanel(d);
+    applyLayoutVars(d);
+  });
+
+  $all('[data-close="designPanelModal"]').forEach(function(btn){
+    btn.addEventListener("click", function(){ applyLayoutVars(state.config.layout); });
   });
 
   // ---------- Modo edición / token ----------
@@ -1049,6 +1212,7 @@
           var parsed = JSON.parse(b64DecodeUnicode(content));
           state.mentores = parsed.mentores || [];
           state.config = Object.assign(defaultConfig(), parsed.config || {});
+          state.config.layout = Object.assign(defaultLayout(), (parsed.config && parsed.config.layout) || {});
         });
       })
       .catch(function(err){
