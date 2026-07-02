@@ -194,6 +194,25 @@
       "foto": "",
       "anio": 2021,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "13e0cc7d-0787-432f-b587-dc41608812bc",
+      "nombre": "Camilo Carrasco Arzola",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Gestión de personas",
+        "Innovación social",
+        "Cervecerías"
+      ],
+      "linkedin": "https://www.linkedin.com/in/camilocarrascoarzola/",
+      "correo": "camilo.carrasco@cervezaprocer.cl",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
