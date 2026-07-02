@@ -139,13 +139,13 @@
   .empty-state{ text-align:center; padding:4rem 1rem; color:var(--tinta-suave); }
   .card{
     border-radius:18px; overflow:hidden; cursor:pointer;
-    display:flex; align-items:stretch; min-height:160px;
+    display:flex; align-items:stretch; min-height:190px;
     background:linear-gradient(135deg, var(--g1) 0%, var(--g2) 40%, var(--g3) 100%);
     transition:transform .2s, box-shadow .2s;
-    margin-bottom:.9rem; position:relative;
+    margin-bottom:1rem; position:relative;
   }
   .card:hover{ transform:translateY(-3px) scale(1.005); box-shadow:0 12px 36px rgba(13,59,35,.18); }
-  .card-photo-wrap{ flex-shrink:0; width:160px; aspect-ratio:1/1; position:relative; overflow:hidden; align-self:flex-start; }
+  .card-photo-wrap{ flex-shrink:0; width:190px; aspect-ratio:1/1; position:relative; overflow:hidden; align-self:flex-start; }
   .card-photo-wrap img{
     width:100%; height:100%; object-fit:cover; display:block;
     filter:saturate(1.08) contrast(1.02);
@@ -158,7 +158,7 @@
   .card-photo-placeholder{
     width:100%; height:100%; display:flex; align-items:center; justify-content:center;
   }
-  .initials-big{ font-size:2.2rem; font-weight:800; color:rgba(255,255,255,.55); letter-spacing:-.02em; }
+  .initials-big{ font-size:2.6rem; font-weight:800; color:rgba(255,255,255,.55); letter-spacing:-.02em; }
   .initials-big.lg{ font-size:3.4rem; }
   .detail-banner-placeholder{ background:linear-gradient(135deg,var(--g1),var(--g2),var(--g3)); display:flex; align-items:center; justify-content:center; }
   .card-body{ flex:1; padding:1.3rem 1.6rem; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; text-align:left; min-width:0; overflow:hidden; }
@@ -187,9 +187,9 @@
 
   @media (max-width:680px){
     .card{ flex-direction:column; min-height:0; }
-    .card-photo-wrap{ width:100%; max-width:100%; height:auto; aspect-ratio:1/1; }
-    .card-body{ padding:1rem 1.1rem 1.1rem; }
-    .card-name{ font-size:1.25rem; }
+    .card-photo-wrap{ width:100%; max-width:100%; height:auto; aspect-ratio:1/1; max-height:420px; }
+    .card-body{ padding:1.1rem 1.2rem 1.2rem; }
+    .card-name{ font-size:1.3rem; }
     .card-links{ flex-direction:column; align-items:flex-start; gap:.4rem; }
   }
 
