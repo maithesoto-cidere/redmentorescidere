@@ -40,6 +40,28 @@
       "foto": "https://media.licdn.com/dms/image/v2/C5103AQF-isVyZzVeZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437242509?e=1784764800&v=beta&t=XdvSJLlBVH6lsrPBhWHI1lInzPoIelyw87wlECJ0GpU",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "1ad84cb2-f845-469b-ad70-6ffb305d2ea5",
+      "nombre": "Alberto Villa Contreras",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Planificación estratégica",
+        "Branding",
+        "Marketing",
+        "Inteligencia artificial",
+        "Transformación digital",
+        "Gestión de calidad",
+        "Mejora continua"
+      ],
+      "linkedin": "https://www.linkedin.com/in/alberto-villa-contreras/",
+      "correo": "gerencia@avillaco.cl",
+      "comuna": "Concepción",
+      "foto": "https://media.licdn.com/dms/image/v2/C4D03AQFCGQgoqaJloQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1657544978752?e=1784764800&v=beta&t=JMvzTEuP1eoRJnH0jDoeRQbEEwn8rikm5Jn5IUVTDoc",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
