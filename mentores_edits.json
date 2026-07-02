@@ -10,14 +10,14 @@
       "#0d3d4a"
     ],
     "layout": {
-      "fontScale": 123,
-      "sectionScale": 94,
-      "cardHeight": 179,
+      "fontScale": 121,
+      "sectionScale": 95,
+      "cardHeight": 160,
       "padY": 0,
-      "padX": 21,
-      "cardGap": 2,
-      "container": 1090,
-      "photoW": 180,
+      "padX": 19,
+      "cardGap": 9,
+      "container": 1220,
+      "photoW": 160,
       "initials": 21,
       "radius": 13
     }
