@@ -130,55 +130,6 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
-    },
-    {
-      "id": "8675efe6-cf3e-4e9e-84a1-c972408a7570",
-      "nombre": "Beatriz Llanos Berrocal",
-      "genero": "",
-      "areas": [
-        "Formalización y compliance",
-        "Gestión contractual y legal corporativa"
-      ],
-      "linkedin": "https://www.linkedin.com/in/beatriz-llanos-berrocal-0b371b67/",
-      "correo": "bllanosberrocal@gmail.com",
-      "comuna": "Concepción",
-      "foto": "",
-      "anio": null,
-      "posicionFoto": "50% 50%"
-    },
-    {
-      "id": "56e264d7-0eeb-4ee2-a300-cf65679dd7d8",
-      "nombre": "Blas Pereira Vidal",
-      "genero": "",
-      "areas": [
-        "Modelo de negocios",
-        "Branding y comunicación estratégica",
-        "Desarrollo comercial y ventas",
-        "Innovación y desarrollo tecnológico",
-        "Formalización y compliance",
-        "Logística y cadena de suministro"
-      ],
-      "linkedin": "https://www.linkedin.com/in/blas-pereira-vidal-7a172031?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "correo": "blaspereira@gmail.com",
-      "comuna": "San Pedro de la Paz",
-      "foto": "",
-      "anio": 2019,
-      "posicionFoto": "50% 50%"
-    },
-    {
-      "id": "9aae24e7-1b31-4b00-a0d3-3881718b8f3a",
-      "nombre": "Bryan Smith Penroz",
-      "genero": "",
-      "areas": [
-        "Desarrollo comercial y ventas",
-        "Flujo de caja y planificación financiera"
-      ],
-      "linkedin": "https://www.linkedin.com/in/bryan-smith-penroz/",
-      "correo": "Bryan.smith.penroz@gmail.com",
-      "comuna": "Chillán",
-      "foto": "",
-      "anio": 2021,
-      "posicionFoto": "50% 50%"
     }
   ]
 }
