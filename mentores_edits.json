@@ -213,6 +213,36 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f815f644-510a-4b9b-9f1b-c5743393d1b5",
+      "nombre": "Carla San Martín Barra",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Propuesta de valor",
+        "Estrategia de escalamiento",
+        "Desarrollo de negocios",
+        "Planificación",
+        "Gestión de proyectos",
+        "Innovación",
+        "Marketing",
+        "Transformación digital",
+        "IA",
+        "Finanzas",
+        "Legal",
+        "Gestión de personas",
+        "Operaciones",
+        "Sustentabilidad",
+        "Economía circular",
+        "Innovación social"
+      ],
+      "linkedin": "https://www.linkedin.com/in/carlasanmartinbarra/",
+      "correo": "carsanma@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
