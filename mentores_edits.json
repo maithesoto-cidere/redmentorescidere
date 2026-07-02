@@ -359,6 +359,20 @@
       "foto": "",
       "anio": 2017,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "8dad56c8-21e6-40c5-99eb-a84ca7c1cd3f",
+      "nombre": "Claudia Quilodrán Cifuentes",
+      "genero": "",
+      "areas": [
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/claudia-quilodran-cifuentes/",
+      "correo": "Claudia.quilodran.c@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
