@@ -139,13 +139,13 @@
   .empty-state{ text-align:center; padding:4rem 1rem; color:var(--tinta-suave); }
   .card{
     border-radius:18px; overflow:hidden; cursor:pointer;
-    display:flex; align-items:stretch; min-height:130px;
+    display:flex; align-items:stretch; min-height:160px;
     background:linear-gradient(135deg, var(--g1) 0%, var(--g2) 40%, var(--g3) 100%);
     transition:transform .2s, box-shadow .2s;
-    margin-bottom:.75rem; position:relative;
+    margin-bottom:.9rem; position:relative;
   }
   .card:hover{ transform:translateY(-3px) scale(1.005); box-shadow:0 12px 36px rgba(13,59,35,.18); }
-  .card-photo-wrap{ flex-shrink:0; width:130px; min-width:130px; max-width:130px; position:relative; overflow:hidden; align-self:stretch; }
+  .card-photo-wrap{ flex-shrink:0; width:160px; aspect-ratio:1/1; position:relative; overflow:hidden; align-self:flex-start; }
   .card-photo-wrap img{
     width:100%; height:100%; object-fit:cover; display:block;
     filter:saturate(1.08) contrast(1.02);
@@ -161,8 +161,8 @@
   .initials-big{ font-size:2.2rem; font-weight:800; color:rgba(255,255,255,.55); letter-spacing:-.02em; }
   .initials-big.lg{ font-size:3.4rem; }
   .detail-banner-placeholder{ background:linear-gradient(135deg,var(--g1),var(--g2),var(--g3)); display:flex; align-items:center; justify-content:center; }
-  .card-body{ flex:1; padding:1.1rem 1.4rem; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; text-align:left; min-width:0; overflow:hidden; }
-  .card-name{ font-size:1.3rem; font-weight:800; color:#fff; line-height:1.2; overflow-wrap:anywhere; }
+  .card-body{ flex:1; padding:1.3rem 1.6rem; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; text-align:left; min-width:0; overflow:hidden; }
+  .card-name{ font-size:1.45rem; font-weight:800; color:#fff; line-height:1.2; overflow-wrap:anywhere; }
   .card-year{ font-size:.65rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.65); margin-top:.3rem; }
   .card-areas{ display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.55rem; }
   .chip{
@@ -187,9 +187,9 @@
 
   @media (max-width:680px){
     .card{ flex-direction:column; min-height:0; }
-    .card-photo-wrap{ width:100%; max-width:100%; min-width:0; height:190px; }
-    .card-body{ padding:.9rem 1rem 1rem; }
-    .card-name{ font-size:1.15rem; }
+    .card-photo-wrap{ width:100%; max-width:100%; height:auto; aspect-ratio:1/1; }
+    .card-body{ padding:1rem 1.1rem 1.1rem; }
+    .card-name{ font-size:1.25rem; }
     .card-links{ flex-direction:column; align-items:flex-start; gap:.4rem; }
   }
 
