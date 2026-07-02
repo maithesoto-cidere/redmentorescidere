@@ -391,6 +391,22 @@
       "foto": "",
       "anio": 2023,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f8130252-6a3f-4ec9-bdc2-7b46096ca8f0",
+      "nombre": "Claudio Gutierrez Orrego",
+      "genero": "",
+      "areas": [
+        "Internacionalización",
+        "Modelo de negocios",
+        "Logística"
+      ],
+      "linkedin": "",
+      "correo": "",
+      "comuna": "",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
