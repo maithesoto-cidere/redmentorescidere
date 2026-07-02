@@ -9,6 +9,7 @@
       "#1b6b72",
       "#0d3d4a"
     ],
+    "logo": null,
     "layout": {
       "fontScale": 121,
       "sectionScale": 95,
@@ -89,6 +90,24 @@
       "comuna": "San Pedro de la Paz",
       "foto": "https://media.licdn.com/dms/image/v2/D4E03AQH4nk4ENf3iDw/profile-displayphoto-crop_800_800/B4EZsv5YbDKgAI-/0/1766035133410?e=1784764800&v=beta&t=9yt7zbtP8BZkHtpcp4nQDs-Ztuw0qSz_ozs4Cff6kxA",
       "anio": 2019,
+      "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "386c9183-0269-4dde-9750-4852e6f6f7ab",
+      "nombre": "Alejandro Rodó León",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja",
+        "Planificación financiera",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "",
+      "correo": "",
+      "comuna": "",
+      "foto": "",
+      "anio": null,
       "posicionFoto": "50% 50%"
     }
   ]
