@@ -282,6 +282,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "3bb414da-2483-4483-8138-71ad21aabba1",
+      "nombre": "Carlos Méndez Pérez",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/carlos-mendez-perez-88ba5848",
+      "correo": "cmendez@setop.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
