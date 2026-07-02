@@ -8,7 +8,19 @@
       "#2eae8f",
       "#1b6b72",
       "#0d3d4a"
-    ]
+    ],
+    "layout": {
+      "fontScale": 123,
+      "sectionScale": 94,
+      "cardHeight": 179,
+      "padY": 0,
+      "padX": 21,
+      "cardGap": 2,
+      "container": 1090,
+      "photoW": 180,
+      "initials": 21,
+      "radius": 13
+    }
   },
   "mentores": [
     {
