@@ -343,6 +343,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "d7fb78ef-8930-4697-a314-11846c559a02",
+      "nombre": "Claudia Pavez Souper",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/claudiapavezsouper/",
+      "correo": "claudia@comunicativa.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2017,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
