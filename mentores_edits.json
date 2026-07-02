@@ -113,6 +113,22 @@
       "foto": "https://media.licdn.com/dms/image/v2/D4E03AQEOoWw7irdoPA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707239273526?e=1784764800&v=beta&t=yuCj4V0RY2DuixI_JVeVRuCXGnVkkXRk9EYeqDsZZRY",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "a8935613-276a-45ec-a46c-9891ea6bb90a",
+      "nombre": "Andrés Galindo",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Estrategia creativa y posicionamiento de marca",
+        "Marketing digital"
+      ],
+      "linkedin": "https://www.google.com/search?q=https://www.linkedin.com/in/andr%25C3%25A9s-galindo-2388203a",
+      "correo": "Andres@holayunta.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
