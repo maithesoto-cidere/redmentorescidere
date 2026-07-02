@@ -298,6 +298,25 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "2416089d-209b-4801-b291-731b76a6ee6f",
+      "nombre": "Carol Mejías Pineda",
+      "genero": "",
+      "areas": [
+        "Branding",
+        "Desarrollo comercial",
+        "Estrategia de marca",
+        "Marketing digital",
+        "Coaching",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/carol-mejías-pineda-b8117555/",
+      "correo": "cmejiasp@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
