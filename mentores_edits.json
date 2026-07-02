@@ -62,6 +62,20 @@
       "foto": "https://media.licdn.com/dms/image/v2/C4D03AQFCGQgoqaJloQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1657544978752?e=1784764800&v=beta&t=JMvzTEuP1eoRJnH0jDoeRQbEEwn8rikm5Jn5IUVTDoc",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f1b3fab4-0541-4c08-97c7-031358ef6a2c",
+      "nombre": "Alejandra Muñoz Muñoz",
+      "genero": "",
+      "areas": [
+        "Sostenibilidad en negocios y proyectos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/alejandra-munoz-munoz/",
+      "correo": "alejmunozm@gmail.com",
+      "comuna": "Concepción",
+      "foto": "https://media.licdn.com/dms/image/v2/D4E03AQGgZGxRjqk1Rg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673096945654?e=1784764800&v=beta&t=dDMuNdLHmbfk9sKwLg3XX6h2ufhjFvvCWCvXgZng8HQ",
+      "anio": 2017,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
