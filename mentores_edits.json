@@ -1791,6 +1791,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "a13c071d-ba96-4286-83fb-7602f055c7ad",
+      "nombre": "Patricia De Bernardi",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Liderazgo y empoderamiento",
+        "Desarrollo territorial y vinculación con comunidades"
+      ],
+      "linkedin": "https://www.linkedin.com/in/patricia-de-bernardi-601a2624b/",
+      "correo": "patriciadebernardisoto@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
