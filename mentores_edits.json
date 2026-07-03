@@ -586,6 +586,27 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "d5f56627-9136-495d-ba17-fb665ef2d6b3",
+      "nombre": "Fabián Rodríguez Rodríguez",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Estrategia creativa y posicionamiento de marca",
+        "Marketing digital",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización",
+        "Formalización y compliance",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/raintome/",
+      "correo": "fabiariger@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2022,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
