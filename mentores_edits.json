@@ -1139,6 +1139,23 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "57043280-df89-4c4c-b7e1-21984e8634e7",
+      "nombre": "Juan Ruiz Valenzuela",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo de hardware",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización"
+      ],
+      "linkedin": "https://www.linkedin.com/in/juan-carlos-ruiz-v-195a1968?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "correo": "jcruizv@electronicabiobio.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
