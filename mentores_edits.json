@@ -1104,6 +1104,24 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "6aabc11d-5c04-4b74-b6e6-0fdcf9f5da7c",
+      "nombre": "Juan Fernández Castro",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Desarrollo de talento"
+      ],
+      "linkedin": "",
+      "correo": "juanfernandezc.21@gmail.com",
+      "comuna": "Curanilahue",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
