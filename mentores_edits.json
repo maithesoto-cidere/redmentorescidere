@@ -2167,6 +2167,24 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "ea9942bc-4d96-4a29-867c-ca7f178f6e09",
+      "nombre": "Sergio Pereira Pincheira",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Gestión de personas",
+        "Gestión de operaciones",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/sergio-pereira-pincheira-9a2275244/",
+      "correo": "Spereira.ing@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
