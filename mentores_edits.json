@@ -1960,6 +1960,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "da390f96-e97d-469a-8111-c56819b1be32",
+      "nombre": "Roberto Escobar Pérez",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Flujo de caja y planificación financiera",
+        "Licitaciones y mercado público"
+      ],
+      "linkedin": "",
+      "correo": "roescobap@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
