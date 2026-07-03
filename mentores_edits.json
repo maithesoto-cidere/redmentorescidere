@@ -994,6 +994,24 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "5890e1d2-43fc-40da-b0d7-b98942f02e13",
+      "nombre": "Jorge Díaz Monsalves",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera",
+        "Liderazgo y empoderamiento"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jorgediazm/",
+      "correo": "jdiazmba@gmail.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": 2016,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
