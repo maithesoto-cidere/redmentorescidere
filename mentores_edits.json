@@ -2360,6 +2360,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "217c2318-298f-4b41-96ed-c6b6f98f22fc",
+      "nombre": "Yanina Saravia Montero",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Gestión de calidad y mejora continua"
+      ],
+      "linkedin": "linkedin.com/in/yanina-saravia-montero-61ba1351",
+      "correo": "ysaraviamontero@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
