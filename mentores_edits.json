@@ -942,6 +942,25 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "51272cc9-3a4b-43e6-9844-bc7f11429257",
+      "nombre": "Jenny Sauterel Ruff",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Planificación estratégica",
+        "Desarrollo comercial y ventas",
+        "Gestión de equipos",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jenny-sauterel-2041a42a/",
+      "correo": "jsauterel@iempresa.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
