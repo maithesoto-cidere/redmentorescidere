@@ -1704,6 +1704,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "5dea25dd-71d4-4311-acfa-f2f13e8230c4",
+      "nombre": "Pablo Saavedra Ortiz",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Licitaciones y mercado público",
+        "Economía circular",
+        "Sostenibilidad en negocios y proyectos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/pablosaavedraortiz/",
+      "correo": "psaavedra.inge@gmail.com",
+      "comuna": "Penco",
+      "foto": "",
+      "anio": 2018,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
