@@ -679,6 +679,21 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "6c412c19-94ad-4ee6-b800-a35a35ec053d",
+      "nombre": "Geraldine Hyde Toro",
+      "genero": "",
+      "areas": [
+        "Gestión de personas",
+        "Liderazgo y empoderamiento"
+      ],
+      "linkedin": "https://www.linkedin.com/in/geraldine-hyde-toro/",
+      "correo": "ghydet@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
