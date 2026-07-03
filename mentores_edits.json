@@ -2255,6 +2255,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "a14a08a4-4210-4be8-8d0a-8899ece9933f",
+      "nombre": "Susana Villar Gómez",
+      "genero": "",
+      "areas": [
+        "Evaluación financiera de proyectos",
+        "Modelo de negocios",
+        "Economía circular"
+      ],
+      "linkedin": "https://www.linkedin.com/in/susana-villar-645bb21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bo5DIa82bRRCuXvh8pL1nSQ%3D%3D",
+      "correo": "villar.susy@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
