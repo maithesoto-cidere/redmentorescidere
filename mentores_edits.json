@@ -507,6 +507,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "2cebfe08-3157-42d4-82f5-df8989b422d1",
+      "nombre": "Diego Villarroel García",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Desarrollo de software",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización",
+        "Licitaciones y mercado público"
+      ],
+      "linkedin": "https://www.linkedin.com/in/diegovillarroelgarcia/",
+      "correo": "diego.villarroel@redapis.com",
+      "comuna": "Viña del Mar",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
