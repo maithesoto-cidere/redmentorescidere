@@ -1454,6 +1454,34 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "d218d0f3-f006-48d2-8d8c-a3c674df7869",
+      "nombre": "María José Fuentes Pinilla",
+      "genero": "",
+      "areas": [
+        "Propuesta de valor",
+        "Planificación estratégica",
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "creatividad",
+        "Marketing digital",
+        "Branding y comunicación estratégica",
+        "Canales de venta y comercialización",
+        "Marketing internacional",
+        "Customer Experience",
+        "Estrategia creativa y posicionamiento de marca",
+        "Investigación de mercados y análisis de clientes",
+        "Desarrollo de talento",
+        "Liderazgo y empoderamiento",
+        "Eventos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mariajosefuentespinilla/",
+      "correo": "mjfuentes.pinilla@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
