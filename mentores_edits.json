@@ -2185,6 +2185,28 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "379a663d-049c-407e-bf49-8852d3297ead",
+      "nombre": "Sergio Valenzuela González",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Planificación estratégica",
+        "Transformación digital y digitalización",
+        "Automatización de procesos",
+        "Flujo de caja y planificación financiera",
+        "Costeo de productos y servicios",
+        "Gestión de personas",
+        "Cultura organizacional",
+        "Gestión de equipos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/sergiovalenzuela-cl/",
+      "correo": "sergio.vzla@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
