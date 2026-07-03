@@ -745,6 +745,23 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "809f9cc1-a2c8-421c-97c3-18a315f4726e",
+      "nombre": "Gisela Vergara Quezada",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica"
+      ],
+      "linkedin": "https://www.linkedin.com/in/giselavergaraquezada/",
+      "correo": "Giselavergrara@gmail.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": 2016,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
