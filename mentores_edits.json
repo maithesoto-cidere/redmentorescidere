@@ -2129,6 +2129,44 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "5d75a6bb-8c28-477e-914d-183ef5db0bd5",
+      "nombre": "Sebastian Quezada Romero",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Propuesta de valor",
+        "Desarrollo de negocios",
+        "Innovación de productos y servicios",
+        "Branding y comunicación estratégica",
+        "Customer Experience",
+        "Estrategia creativa y posicionamiento de marca",
+        "Transformación digital y digitalización",
+        "Innovación y desarrollo tecnológico",
+        "Levantamiento de capital y financiamiento",
+        "Costeo de productos y servicios",
+        "Gestión contractual y legal corporativa",
+        "Gestión de personas",
+        "Culture运行",
+        "Desarrollo de talento",
+        "Liderazgo y empoderamiento",
+        "Gestión de equipos",
+        "Procesos internos y eficiencia operativa",
+        "Gestión de calidad y mejora continua",
+        "Gestión de operaciones",
+        "Planificación y control operacional",
+        "Economía circular",
+        "Innovación social",
+        "Impacto social y responsabilidad corporativa",
+        "Desarrollo territorial y vinculación con comunidades"
+      ],
+      "linkedin": "https://www.linkedin.com/in/sebastian-quezada-romero?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "correo": "sebastian@barconcepcion.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
