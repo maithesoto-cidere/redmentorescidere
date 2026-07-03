@@ -436,6 +436,42 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "82601cc5-2860-45c0-b561-7dd1fde5eba8",
+      "nombre": "Cristian Veragua Aravena",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Propuesta de valor",
+        "Desarrollo de negocios",
+        "Innovación de productos y servicios",
+        "Marketing digital",
+        "Branding y comunicación estratégica",
+        "Estrategia comercial B2B",
+        "Desarrollo comercial y ventas",
+        "Canales de venta y comercialización",
+        "Customer Experience",
+        "Estrategia creativa y posicionamiento de marca",
+        "Investigación de mercados y análisis de clientes",
+        "Innovación y desarrollo tecnológico",
+        "Levantamiento de capital y financiamiento",
+        "Costeo de productos y servicios",
+        "Gestión de personas",
+        "Cultura organizacional",
+        "Desarrollo de talento",
+        "Liderazgo y empoderamiento",
+        "Gestión de equipos",
+        "Coaching y acompañamiento profesional",
+        "Innovación social",
+        "Impacto social y responsabilidad corporativa"
+      ],
+      "linkedin": "https://www.linkedin.com/in/cristian-andres-veragua-aravena-2b153488",
+      "correo": "cris.veragua.aravena@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
