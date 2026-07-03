@@ -1618,6 +1618,22 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "8ccb5f3b-8c54-4033-9c83-9f6bebe769df",
+      "nombre": "Nazly Hananias Ramos",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Vinculación con el medio",
+        "Networking con sentido"
+      ],
+      "linkedin": "https://www.linkedin.com/in/nazly-hananias-ramos-1240004a/",
+      "correo": "nhananiasr@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
