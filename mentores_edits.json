@@ -1400,6 +1400,28 @@
       "foto": "",
       "anio": 2020,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "78dc44ff-869b-4d82-b71f-7bc992265e1a",
+      "nombre": "María Antonieta Quijada",
+      "genero": "",
+      "areas": [
+        "Propuesta de valor",
+        "Innovación de productos y servicios",
+        "Estrategia creativa y posicionamiento de marca",
+        "Gestión de personas",
+        "Cultura organizacional",
+        "Liderazgo y empoderamiento",
+        "Gestión de equipos",
+        "Coaching y acompañamiento profesional",
+        "Innovación social"
+      ],
+      "linkedin": "www.linkedin.com/in/maría-antonieta-quijada-sandoval-b4ba6465",
+      "correo": "emequijada@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
