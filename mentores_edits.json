@@ -978,6 +978,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "d211e83c-b72d-42c5-bc71-218d25886c7b",
+      "nombre": "Jorge Bizama Gallegos",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Marketing digital"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jorge-bizama/",
+      "correo": "hola@jorgebizama.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
