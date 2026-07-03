@@ -627,6 +627,22 @@
       "foto": "",
       "anio": 2023,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "18cd7237-6b5b-4582-926a-ee15456596b2",
+      "nombre": "Francisca Marzullo Varela",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Sostenibilidad en negocios y proyectos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/francisca-marzullo-varela/",
+      "correo": "fcamarzullo@gmail.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
