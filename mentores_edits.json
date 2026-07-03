@@ -607,6 +607,26 @@
       "foto": "",
       "anio": 2022,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "0e9b30ed-fdb7-4cf5-a2de-192c3efacce2",
+      "nombre": "Felipe Lobos Robles",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Innovación y desarrollo tecnológico",
+        "Innovación social",
+        "Sostenibilidad en negocios y proyectos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/felipe-lobos-robles-9b1a79162/",
+      "correo": "fe.lobosrobles@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": 2023,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
