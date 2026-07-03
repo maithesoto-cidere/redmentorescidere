@@ -2239,6 +2239,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "61f52e9b-4296-4df4-8f8a-d57854c770c6",
+      "nombre": "Soraya Montecinos González",
+      "genero": "",
+      "areas": [
+        "Estrategia de escalamiento",
+        "Gestión de proyectos",
+        "Modelo de negocios"
+      ],
+      "linkedin": "https://www.linkedin.com/in/soraya-macarena-montecinos-gonz%C3%A1lez/",
+      "correo": "soraya.montecinos@gmail.com",
+      "comuna": "Hualpén",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
