@@ -815,6 +815,21 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f38ce2f7-7467-4a8d-9a92-e5ee18af57d6",
+      "nombre": "Gustavo Fuentes Del Valle",
+      "genero": "",
+      "areas": [
+        "Evaluación financiera de proyectos",
+        "Flujo de caja y planificación financiera"
+      ],
+      "linkedin": "",
+      "correo": "gfuentesdelv@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
