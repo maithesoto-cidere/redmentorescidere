@@ -2086,6 +2086,27 @@
       "foto": "",
       "anio": 2020,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "415bb014-4d04-4533-99b9-908fd3b7e4d7",
+      "nombre": "Rodrigo Monsalve Riquelme",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera",
+        "Licitaciones y mercado público",
+        "Gestión de personas",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/rodrigo-monsalve-riquelme-06329728/",
+      "correo": "rodrigomonsalve@yahoo.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
