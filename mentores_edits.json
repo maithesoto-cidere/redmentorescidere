@@ -472,6 +472,21 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "433c8b56-74c3-41a4-be31-54351b4bd5bd",
+      "nombre": "David Bracamonte",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Marketing digital"
+      ],
+      "linkedin": "https://www.linkedin.com/in/david-bracamonte-marketing/",
+      "correo": "INFO@DAVIDBRACAMONTE.COM",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
