@@ -1276,6 +1276,28 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "e4a58cd3-04e0-43b8-b672-9e8042c74e01",
+      "nombre": "Lorenzo Chavalos Román",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Innovación y desarrollo tecnológico",
+        "Licitaciones y mercado público",
+        "Gestión de personas",
+        "Gestión del cambio",
+        "Logística y cadena de suministro",
+        "Procesos internos y eficiencia operativa"
+      ],
+      "linkedin": "https://www.linkedin.com/in/lorenzochavalos/",
+      "correo": "lorenzo.chavalos@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
