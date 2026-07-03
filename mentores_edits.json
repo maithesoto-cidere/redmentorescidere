@@ -1422,6 +1422,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "18db05d5-90d0-499f-b096-cfa9bd0c0ea0",
+      "nombre": "María Duran Sepulveda",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Gestión de personas"
+      ],
+      "linkedin": "www.linkedin.com/in/maria-victoria-duran-sepulveda",
+      "correo": "vickyds1234@gmail.com",
+      "comuna": "Las Vegas",
+      "foto": "",
+      "anio": 2018,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
