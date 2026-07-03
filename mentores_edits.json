@@ -961,6 +961,23 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "6e41bf5f-0667-47fe-b03b-e12b02604293",
+      "nombre": "Jimena Illanes Martínez",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Gestión de personas",
+        "Liderazgo y empoderamiento"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jimena-illanes-55062915/",
+      "correo": "jimenaillanescoach@gmail.com / jimena.illanes@ucsc.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
