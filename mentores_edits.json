@@ -487,6 +487,26 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "fa1a069b-f24c-4c95-9b95-d4e007d02ed8",
+      "nombre": "Diego Mardones Rodríguez",
+      "genero": "",
+      "areas": [
+        "Estrategia de escalamiento",
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Propuesta de valor",
+        "Desarrollo comercial y ventas",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización"
+      ],
+      "linkedin": "https://www.linkedin.com/in/diego-mardones-rodr%C3%ADguez-990718177/",
+      "correo": "DIEGO.MARDONES.RODRIGUEZ@GMAIL.COM",
+      "comuna": "",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
