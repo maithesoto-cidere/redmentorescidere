@@ -1028,6 +1028,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "c5ac6277-f7b5-4bcf-a761-cad27e1c45e2",
+      "nombre": "José Mella Espinoza",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Innovación y desarrollo tecnológico",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jose-santos-mella-espinoza-b35a5440/",
+      "correo": "josemellae@gmail.com",
+      "comuna": "Coronel",
+      "foto": "",
+      "anio": 2017,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
