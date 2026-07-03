@@ -1943,6 +1943,23 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "4d775c57-4f03-43b0-a9d8-01d523df11a1",
+      "nombre": "Ricardo Leiva Parra",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Producción ejecutiva"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ricardo-andres-leiva-parra-57143058/",
+      "correo": "richileiva@gmail.com",
+      "comuna": "Providencia",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
