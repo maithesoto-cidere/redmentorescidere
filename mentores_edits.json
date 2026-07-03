@@ -1208,6 +1208,23 @@
       "foto": "",
       "anio": 2020,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "20dda27b-b6c6-4d97-b2a3-133db3ef84b4",
+      "nombre": "Laura Lopez Escobar",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Gestión de personas",
+        "Coaching"
+      ],
+      "linkedin": "https://www.linkedin.com/in/lauralopezescobar-llconsulting/",
+      "correo": "laura.lopez@llconsulting.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
