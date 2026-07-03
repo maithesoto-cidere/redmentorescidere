@@ -1670,6 +1670,21 @@
       "foto": "",
       "anio": 2018,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "1ce9c8f5-b609-47d8-bfe3-9a04e5e75a12",
+      "nombre": "Oscar Sánchez Aspe",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios"
+      ],
+      "linkedin": "https://www.linkedin.com/in/oscarsancheza/",
+      "correo": "o.sanchezaspe@gmail.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": 2018,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
