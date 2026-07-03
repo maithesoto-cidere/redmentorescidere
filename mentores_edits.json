@@ -729,6 +729,22 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "b24d6f7f-eeeb-470c-8e04-b4f06a4a031c",
+      "nombre": "Germán Vargas Torres",
+      "genero": "",
+      "areas": [
+        "Formalización y compliance",
+        "Gestión ambiental y medioambiente",
+        "Sostenibilidad en negocios y proyectos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/germán-alberto-vargas-torres-9a1253a0/",
+      "correo": "german.vargas@cvgestion.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
