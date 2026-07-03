@@ -15,12 +15,12 @@
       "sectionScale": 92,
       "cardHeight": 178,
       "padY": 0,
-      "padX": 19,
+      "padX": 18,
       "cardGap": 9,
-      "container": 1220,
-      "photoW": 160,
-      "initials": 21,
-      "radius": 13
+      "container": 1150,
+      "photoW": 180,
+      "initials": 17,
+      "radius": 8
     }
   },
   "mentores": [
