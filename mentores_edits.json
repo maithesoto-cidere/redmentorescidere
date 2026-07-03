@@ -660,6 +660,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "06b8d7a5-496b-4500-b84c-a42093683524",
+      "nombre": "Franco del Pino Castillo",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización"
+      ],
+      "linkedin": "https://www.linkedin.com/in/franco-del-pino-28698b26/",
+      "correo": "francodelpino@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
