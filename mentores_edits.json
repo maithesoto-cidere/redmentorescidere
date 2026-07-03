@@ -1773,6 +1773,24 @@
       "foto": "",
       "anio": 2024,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "b3a633d0-e9b7-4b85-8145-250aebdab1ea",
+      "nombre": "Paola Román Villagra",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/paola-carolina-constanza-r-1ab4a8aa/",
+      "correo": "paola.roman.villagra@gmail.com",
+      "comuna": "Los Ángeles",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
