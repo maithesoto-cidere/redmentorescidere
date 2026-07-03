@@ -1925,6 +1925,24 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "12868555-805d-42e4-a7b3-e313bafac61d",
+      "nombre": "Ricardo González Olivare",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Ciberseguridad y gestión de datos",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ricardo-sebastian/",
+      "correo": "rgonzalez@ing.ucsc.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
