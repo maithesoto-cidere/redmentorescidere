@@ -1909,6 +1909,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "a48ca2d5-0318-491c-b2c5-eb91b230b500",
+      "nombre": "Pedro Silva Riquelme",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Flujo de caja y planificación financiera"
+      ],
+      "linkedin": "https://www.linkedin.com/in/pedro-silva-a871b513/",
+      "correo": "psilva@udd.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
