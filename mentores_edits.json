@@ -1241,6 +1241,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "eb789a1b-1763-4b82-a26c-6adde50307ec",
+      "nombre": "Leticia Galleguillos Peralta",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Modelo de negocios",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/leticia-galleguillos-peralta-01829714/",
+      "correo": "lgalleguillos@ubiobio.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
