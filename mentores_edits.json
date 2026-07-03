@@ -1156,6 +1156,21 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f96a1e5e-5e0c-4346-869a-b14fc4a6b937",
+      "nombre": "Karen Muñoz Guzmán",
+      "genero": "",
+      "areas": [
+        "Formalización y compliance",
+        "Licitaciones y mercado público"
+      ],
+      "linkedin": "https://www.linkedin.com/in/karen-andrea-mu%C3%B1oz-guzm%C3%A1n-a71b95131?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "correo": "kmunozguzman@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
