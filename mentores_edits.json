@@ -1438,6 +1438,22 @@
       "foto": "",
       "anio": 2018,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "9ec6971b-c859-4aa6-94b4-99ab3c9532f0",
+      "nombre": "María Jesús González",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Gestión de personas",
+        "Coaching"
+      ],
+      "linkedin": "www.linkedin.com/in/mariajesusgonzalezcoach",
+      "correo": "mgonzalez.nutricion@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
