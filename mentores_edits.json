@@ -1347,6 +1347,29 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "b018d98e-c6f0-43c0-bbac-753b7fd3802d",
+      "nombre": "Marcia Rondanelli Bustos",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización",
+        "Formalización y compliance",
+        "Licitaciones y mercado público"
+      ],
+      "linkedin": "",
+      "correo": "marcia.rondanelli.b@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
