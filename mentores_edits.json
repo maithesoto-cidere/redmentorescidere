@@ -799,6 +799,22 @@
       "foto": "",
       "anio": 2017,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "153cda33-8714-46df-ac11-d2faa5998895",
+      "nombre": "Gustavo Arias Constanzo",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Estrategia creativa y posicionamiento de marca",
+        "Marketing digital"
+      ],
+      "linkedin": "linkedin.com/in/gariac",
+      "correo": "ariasconstanzo@gmail.com",
+      "comuna": "Los Ángeles",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
