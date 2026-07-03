@@ -2207,6 +2207,23 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "06c32e10-a87d-44ea-b7f7-25873f032266",
+      "nombre": "Solange Brevis Brevis",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Gestión de operaciones"
+      ],
+      "linkedin": "www.linkedin.com/in/solange-brevis-50032a15",
+      "correo": "solangebrevis@gmail.com",
+      "comuna": "Providencia",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
