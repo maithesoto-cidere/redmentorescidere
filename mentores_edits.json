@@ -1807,6 +1807,23 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "1c183632-1606-41e0-92f2-004beb40deda",
+      "nombre": "Patricia Jara Jara",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo territorial y vinculación con comunidades"
+      ],
+      "linkedin": "https://www.linkedin.com/in/patricia-jara-jara-30388b34/",
+      "correo": "pjara@pewmanconsultores.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
