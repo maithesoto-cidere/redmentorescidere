@@ -11,9 +11,9 @@
     ],
     "logo": null,
     "layout": {
-      "fontScale": 121,
-      "sectionScale": 95,
-      "cardHeight": 160,
+      "fontScale": 120,
+      "sectionScale": 92,
+      "cardHeight": 178,
       "padY": 0,
       "padX": 19,
       "cardGap": 9,
