@@ -866,6 +866,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "13bde74a-1ccc-4292-a5d1-abc68ccc9887",
+      "nombre": "Ignacio Vila Ramos",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Gestión de personas",
+        "Logística y cadena de suministro",
+        "Gestión ambiental y medioambiente"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ignacio-vila-ccp/",
+      "correo": "ignacio.vila@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
