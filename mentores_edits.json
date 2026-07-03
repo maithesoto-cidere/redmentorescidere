@@ -1685,6 +1685,25 @@
       "foto": "",
       "anio": 2018,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "9dc183e2-13c1-442a-9683-6778408363f6",
+      "nombre": "Pablo Rodriguez Araneda",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Formalización y compliance",
+        "Gestión de personas",
+        "Gestión de calidad y mejora continua"
+      ],
+      "linkedin": "https://www.linkedin.com/in/pablorodriguezchile/",
+      "correo": "pablorodriguezaraneda@gmail.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
