@@ -1322,6 +1322,31 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "6d3ffd7d-e996-4309-9173-7b82272e8ecb",
+      "nombre": "Marcia Jerez Caamaño",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo de negocios",
+        "Gestión de proyectos",
+        "Desarrollo comercial y ventas",
+        "Investigación de mercados y análisis de clientes",
+        "Innovación y desarrollo tecnológico",
+        "Evaluación financiera de proyectos",
+        "Gestión de personas",
+        "Planificación y control operacional",
+        "Economía circular",
+        "Gestión ambiental y medioambiente",
+        "Desarrollo territorial y vinculación con comunidades"
+      ],
+      "linkedin": "https://www.linkedin.com/in/marcia-l-jerez-caamaño-b0b21956/",
+      "correo": "marciajerezc@gmail.com",
+      "comuna": "Coronel",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
