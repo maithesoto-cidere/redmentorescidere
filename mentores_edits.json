@@ -1298,6 +1298,30 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "24f905ae-356d-4d75-be25-fcbf30d02991",
+      "nombre": "Luis Chandia Yañez",
+      "genero": "",
+      "areas": [
+        "Propuesta de valor",
+        "Desarrollo de negocios",
+        "Planificación estratégica",
+        "Control de gestión basado en metricas simples",
+        "pero",
+        "de alto impacto.",
+        "Flujo de caja y planificación financiera",
+        "Costeo de productos y servicios",
+        "Gestión de personas",
+        "Procesos internos y eficiencia operativa",
+        "Gestión de calidad y mejora continua"
+      ],
+      "linkedin": "https://www.linkedin.com/in/luis-chandia-83007920/",
+      "correo": "luis.chandia@virginiogomez.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
