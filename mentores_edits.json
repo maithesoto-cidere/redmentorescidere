@@ -2088,6 +2088,28 @@
       "posicionFoto": "50% 50%"
     },
     {
+      "id": "7c5c4e0f-ec3e-4cb9-bc1c-2bc76ea7c8db",
+      "nombre": "Rodrigo Maulén Torres",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Desarrollo de negocios",
+        "Innovación y desarrollo tecnológico",
+        "Marketing digital",
+        "Branding y comunicación estratégica",
+        "Transformación digital y digitalización",
+        "Inteligencia Artificial (IA)",
+        "Automatización de procesos",
+        "Planificación estratégica"
+      ],
+      "linkedin": "https://www.linkedin.com/in/rmaulentorres/",
+      "correo": "hey@rodrigomaulen.com",
+      "comuna": "Talcahuano",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
+    },
+    {
       "id": "415bb014-4d04-4533-99b9-908fd3b7e4d7",
       "nombre": "Rodrigo Monsalve Riquelme",
       "genero": "",
