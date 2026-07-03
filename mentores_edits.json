@@ -1187,6 +1187,27 @@
       "foto": "",
       "anio": 2020,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "5f7e9d91-9d07-40ac-a1c5-5fea5a40b432",
+      "nombre": "Kevin Morales Bustos",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Formalización y compliance",
+        "Desarrollo de talento",
+        "Liderazgo y empoderamiento",
+        "Economía circular",
+        "Gestión ambiental y medioambiente",
+        "Impacto social y responsabilidad corporativa",
+        "Propósito"
+      ],
+      "linkedin": "http://linkedin.com/in/kevin-morales-b-7a320aa6",
+      "correo": "ke.morales@hotmail.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2020,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
