@@ -643,6 +643,23 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "70024033-4f6f-4c68-b607-aa410f556f19",
+      "nombre": "Francisco Fernandez Rodriguez",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Internacionalización",
+        "Economía circular",
+        "Gestión ambiental y medioambiente"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ffernandezr7",
+      "correo": "francisco.fernandez@chilerecicla.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
