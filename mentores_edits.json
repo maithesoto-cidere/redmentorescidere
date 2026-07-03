@@ -1122,6 +1122,23 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "4f31ccfc-dbf5-4739-b917-1d00b37c170d",
+      "nombre": "Juan Pablo Mellado",
+      "genero": "",
+      "areas": [
+        "Licitaciones y mercado público",
+        "Gestión de personas",
+        "Gestión del cambio",
+        "Procesos internos y eficiencia operativa"
+      ],
+      "linkedin": "www.linkedin.com/in/juanpablomelladorebolledo",
+      "correo": "juanpablo.mellado@evolutrust.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
