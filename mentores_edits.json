@@ -2052,6 +2052,25 @@
       "posicionFoto": "50% 50%"
     },
     {
+      "id": "f70d8617-9ff3-4033-aafe-a366f91cbcef",
+      "nombre": "Rodrigo Cid Sanhueza",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Gestión de personas",
+        "Logística y cadena de suministro",
+        "Desarrollo territorial y vinculación con comunidades"
+      ],
+      "linkedin": "https://www.linkedin.com/in/rodrigo-leonardo-cid-sanhueza-73964935/",
+      "correo": "rcidsanhueza@gmail.com",
+      "comuna": "Hualpén",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
+    },
+    {
       "id": "30199ac8-0135-4bd0-9cf4-04c8f7af5ad7",
       "nombre": "Rodrigo Jiménez Villalobos",
       "genero": "",
