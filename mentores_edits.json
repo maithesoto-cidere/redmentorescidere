@@ -2015,6 +2015,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "ec0fddf0-9f49-4bc9-aad6-14c2e8808c75",
+      "nombre": "Rodrigo Aranis Zavala",
+      "genero": "",
+      "areas": [
+        "Evaluación financiera de proyectos",
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance"
+      ],
+      "linkedin": "",
+      "correo": "rodrigo.aranis@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
