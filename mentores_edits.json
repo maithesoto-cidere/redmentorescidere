@@ -2224,6 +2224,21 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "6047071d-b08c-47e5-a435-b8560c63bfc6",
+      "nombre": "Sonia Quiroz Astete",
+      "genero": "",
+      "areas": [
+        "Marketing digital",
+        "Desarrollo de software"
+      ],
+      "linkedin": "https://www.linkedin.com/in/sonia-quiroz-dg/",
+      "correo": "sgab21a@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
