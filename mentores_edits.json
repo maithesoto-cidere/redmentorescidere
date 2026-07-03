@@ -1047,6 +1047,44 @@
       "foto": "",
       "anio": 2017,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "fd1ea14c-a555-4c4e-974c-a9fd1d41247d",
+      "nombre": "José Tomás Mahuzier",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Propuesta de valor",
+        "Desarrollo de negocios",
+        "Planificación estratégica",
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Marketing digital",
+        "Customer Experience",
+        "Transformación digital y digitalización",
+        "Inteligencia Artificial (IA)",
+        "Automatización de procesos",
+        "Innovación y desarrollo tecnológico",
+        "Flujo de caja y planificación financiera",
+        "Evaluación financiera de proyectos",
+        "Gestión de personas",
+        "Cultura organizacional",
+        "Liderazgo y empoderamiento",
+        "Gestión de equipos",
+        "Coaching y acompañamiento profesional",
+        "Gestión del cambio",
+        "Procesos internos y eficiencia operativa",
+        "Logística y cadena de suministro",
+        "Gestión de calidad y mejora continua",
+        "Gestión de operaciones",
+        "Planificación y control operacional"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jose-tomas-mahuzier/",
+      "correo": "jmahuzier@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2026,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
