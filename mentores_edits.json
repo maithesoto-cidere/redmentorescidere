@@ -1370,6 +1370,21 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "0ecc8f16-96f4-4991-b6af-405df5133920",
+      "nombre": "Margarita Sepúlveda Reyes",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios"
+      ],
+      "linkedin": "https://www.linkedin.com/in/margarita-sep%C3%BAlveda-reyes-92227628/",
+      "correo": "msepulveda@ite.cl",
+      "comuna": "Hualpén",
+      "foto": "",
+      "anio": 2018,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
