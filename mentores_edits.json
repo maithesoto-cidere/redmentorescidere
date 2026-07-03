@@ -2324,6 +2324,23 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "956d9a1c-a3c7-4dd4-a2ca-64f5198896ea",
+      "nombre": "Valentina Rojas Rodríguez",
+      "genero": "",
+      "areas": [
+        "Internacionalización",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Marketing digital"
+      ],
+      "linkedin": "https://www.linkedin.com/in/valentina-rojas/",
+      "correo": "valentina@mosaikomedia.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
