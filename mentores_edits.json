@@ -1976,6 +1976,27 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "a732c099-f9be-4878-a63e-40203b2459cb",
+      "nombre": "Roberto Muñoz Velasco",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance",
+        "Gestión de personas",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "",
+      "correo": "contacto@rdrgestionna.cl",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
