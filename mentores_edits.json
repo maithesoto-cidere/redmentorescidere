@@ -1723,6 +1723,21 @@
       "foto": "",
       "anio": 2018,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "69e93e4f-8cff-48a9-997d-d909528e5c4b",
+      "nombre": "Pamela Barrientos Pïncheira",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Licitaciones y mercado público"
+      ],
+      "linkedin": "",
+      "correo": "pbarrientospincheira@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
