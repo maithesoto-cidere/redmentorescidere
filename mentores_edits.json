@@ -2308,6 +2308,22 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "d17df05d-9e29-46f8-9768-ff44f0421ba8",
+      "nombre": "Valentina Riquelme Lepez",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Automatización de procesos",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/valentina-riquelme-lepez-",
+      "correo": "vriquelmelepez@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
