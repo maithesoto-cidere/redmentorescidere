@@ -1583,6 +1583,24 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "ffb963fb-fdda-4b9a-b833-7faa3c97f9b8",
+      "nombre": "Mauricio Herrera Gonzalez",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Estrategia comercial B2B",
+        "Marketing digital",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mauricioherrerag/",
+      "correo": "mherreragonzalez@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2018,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
