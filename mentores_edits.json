@@ -1225,6 +1225,22 @@
       "foto": "",
       "anio": 2025,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "69a0071b-964c-4572-9066-3100a621db08",
+      "nombre": "Leonardo Weber Alveal",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Gestión de personas",
+        "Gestión de redes"
+      ],
+      "linkedin": "https://www.linkedin.com/in/leonardo-andres-alveal-weber/",
+      "correo": "lalvealw@docente.uss.cl",
+      "comuna": "Coronel",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
