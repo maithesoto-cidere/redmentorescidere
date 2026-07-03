@@ -565,6 +565,27 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "144daaee-799a-470b-bdfd-b6034c74a379",
+      "nombre": "Exequiel González Jeria",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera",
+        "Licitaciones y mercado público",
+        "Gestión de personas",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "www.linkedin.com/in/exequiel-gonzález-jeria-b4296275",
+      "correo": "egonzalezjeria@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
