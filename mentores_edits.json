@@ -1171,6 +1171,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "d6d15873-4fd8-421d-8cae-af1036326b12",
+      "nombre": "Karin Osorio Muñoz",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Gestión de personas",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/karin-marcela-osorio-muñoz-1111a148/",
+      "correo": "Karinmarcelaosorio@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2020,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
