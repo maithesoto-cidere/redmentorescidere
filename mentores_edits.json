@@ -1385,6 +1385,21 @@
       "foto": "",
       "anio": 2018,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "6c54cbb2-5445-42c4-b3bc-0c65b2baffec",
+      "nombre": "Maria Ali Vallejos",
+      "genero": "",
+      "areas": [
+        "Estrategias ESG (Environmental",
+        "Social and Governance)"
+      ],
+      "linkedin": "https://www.linkedin.com/in/maria-carolina-ali-v-910375164/",
+      "correo": "Periodista.alicarolina@gmail.com",
+      "comuna": "Los Ángeles",
+      "foto": "",
+      "anio": 2020,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
