@@ -2341,6 +2341,25 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "df62754a-71a9-4722-a7ad-5c12000759f2",
+      "nombre": "Victor Contreras Garcia",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance",
+        "Licitaciones y mercado público",
+        "Gestión de personas",
+        "Gestión de operaciones"
+      ],
+      "linkedin": "www.linkedin.com/in/víctor-contreras-00917283",
+      "correo": "vcontreras@viccon.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
