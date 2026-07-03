@@ -1997,6 +1997,24 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "301c1b43-ebcb-4270-b448-4aeddf07727a",
+      "nombre": "Rocío Suzarte Dellarossa",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Gestión de calidad y mejora continua"
+      ],
+      "linkedin": "linkedin.com/in/rsuzarted",
+      "correo": "r.suzarte.d@gmail.com",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
