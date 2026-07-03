@@ -850,6 +850,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "15902721-3000-485e-8318-113ff90cd535",
+      "nombre": "Ignacio Cifuentes Torres",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Desarrollo comercial y ventas",
+        "Sostenibilidad en negocios y proyectos"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ignacifuentes/",
+      "correo": "ccifuentes.di@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
