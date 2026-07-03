@@ -780,6 +780,25 @@
       "foto": "",
       "anio": 2016,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f43df394-bfd0-4ed9-818c-f7f249e6d9a6",
+      "nombre": "Gonzalo Aranda Vásquez",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Customer Experience",
+        "Innovación y desarrollo tecnológico",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/gonzaloarandav",
+      "correo": "gonzalo.aranda@hotmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2017,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
