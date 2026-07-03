@@ -1482,6 +1482,25 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "4ce48e73-3aaf-4d0b-92ee-aae7811958ec",
+      "nombre": "Marta Silva Parra",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Costeo de productos y servicios",
+        "Flujo de caja y planificación financiera",
+        "Licitaciones y mercado público",
+        "Tributación y cumplimiento fiscal",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/marta-silva-parra-73214728/",
+      "correo": "mlsilvap@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
