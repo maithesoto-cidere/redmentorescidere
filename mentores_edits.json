@@ -1601,6 +1601,23 @@
       "foto": "",
       "anio": 2018,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f90d938b-4270-4027-9428-7b03264b5fd9",
+      "nombre": "Misael Burgos Alarcón",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Planificación estratégica",
+        "Desarrollo comercial y ventas",
+        "Marketing digital"
+      ],
+      "linkedin": "https://www.linkedin.com/in/misaelcomercial/",
+      "correo": "misael.burgos@pacificforest.cl",
+      "comuna": "Talcahuano",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
