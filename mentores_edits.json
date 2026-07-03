@@ -694,6 +694,21 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f297324f-afd6-4c21-b15e-a2e92d26a813",
+      "nombre": "Geraldine Manríquez Plaza",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Propuesta de valor"
+      ],
+      "linkedin": "https://www.linkedin.com/in/geraldinemanriquezplaza/",
+      "correo": "hola@geraldinemanriquez.com",
+      "comuna": "Coronel",
+      "foto": "",
+      "anio": 2024,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
