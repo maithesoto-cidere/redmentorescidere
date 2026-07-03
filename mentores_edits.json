@@ -1012,6 +1012,22 @@
       "foto": "",
       "anio": 2016,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "ea11b1ad-fd77-4170-b2bd-92c6ca0e3ecc",
+      "nombre": "Jorge Smith Riquelme",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Modelo de negocios",
+        "Gestión de operaciones"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jorge-smith-riquelme-424194122/",
+      "correo": "jsmithr23@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
