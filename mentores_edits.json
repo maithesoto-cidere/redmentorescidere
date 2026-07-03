@@ -1634,6 +1634,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "e6a9eb78-b3dd-44db-996f-be2614f32e70",
+      "nombre": "Norberto Hernández Andrade",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance"
+      ],
+      "linkedin": "https://www.linkedin.com/in/norberto-hernández-andrade-24a82472/",
+      "correo": "Norbertoh4@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
