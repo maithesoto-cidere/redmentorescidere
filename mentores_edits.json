@@ -1894,6 +1894,21 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "e218c4ed-8ce9-4c7d-ac2a-c97078e0e5e9",
+      "nombre": "Paula Cifuentes Torres",
+      "genero": "",
+      "areas": [
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/paulacifuentes/",
+      "correo": "PAULACIFUENTESTORRES@GMAIL.COM",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
