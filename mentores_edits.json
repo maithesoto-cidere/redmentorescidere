@@ -526,6 +526,27 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "30ba96d7-6007-41e9-8d45-f72e6e46ceb9",
+      "nombre": "Elias Castro",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Innovación y desarrollo tecnológico",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance",
+        "Licitaciones y mercado público",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/eliascastrosalazar/",
+      "correo": "eliascastrosalazar@gmail.com",
+      "comuna": "Chillán",
+      "foto": "",
+      "anio": 2020,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
