@@ -1756,6 +1756,23 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "f32e89c2-c9a1-4ea0-84f1-7237c40f9dd9",
+      "nombre": "Paola Pezo Sepúlveda",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Modelo de negocios",
+        "Levantamiento de capital y financiamiento"
+      ],
+      "linkedin": "https://www.linkedin.com/in/paola-pezo-91a9a757/",
+      "correo": "paopezos@gmail.com",
+      "comuna": "Los Ángeles",
+      "foto": "",
+      "anio": 2024,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
