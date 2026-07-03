@@ -885,6 +885,27 @@
       "foto": "",
       "anio": 2019,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "9bec87eb-ae0c-420b-a430-2f7ec966a185",
+      "nombre": "Jaime Navarrete Cancino",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Planificación estratégica",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Formalización y compliance",
+        "Gestión de personas",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://cl.linkedin.com/in/jaime-n-19a25b32",
+      "correo": "jaime.navarrete@hotmail.com",
+      "comuna": "Quirihue",
+      "foto": "",
+      "anio": 2018,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
