@@ -1085,6 +1085,25 @@
       "foto": "",
       "anio": 2026,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "1e316d82-bf0b-495d-8dd1-81a261c29981",
+      "nombre": "Juan Felipe Vallejo Farías",
+      "genero": "",
+      "areas": [
+        "Evaluación financiera de proyectos",
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Flujo de caja y planificación financiera",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/juan-felipe-vallejo-32339315/",
+      "correo": "jfvallejo@ttc.cl",
+      "comuna": "San Pedro de la Paz",
+      "foto": "",
+      "anio": 2019,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
