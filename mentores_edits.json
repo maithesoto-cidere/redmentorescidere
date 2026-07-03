@@ -830,6 +830,26 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "7a3c7b4a-400d-49a5-8815-6200064dc8c1",
+      "nombre": "Hector Jara Ojeda",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Canales de venta y comercialización",
+        "Desarrollo comercial y ventas",
+        "Marketing digital",
+        "Logística y cadena de suministro"
+      ],
+      "linkedin": "https://www.linkedin.com/in/héctor-jara-ojeda-81388581/",
+      "correo": "hector.jara@dsrenting.cl",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
