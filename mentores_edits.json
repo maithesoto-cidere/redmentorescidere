@@ -1260,6 +1260,22 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "1e197d16-2d37-4604-9b37-1158f4d144be",
+      "nombre": "Lorena Martínez Parra",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Gestión de proyectos",
+        "Modelo de negocios"
+      ],
+      "linkedin": "https://www.linkedin.com/in/lorena-mart%C3%ADnez-parra-2a367524/",
+      "correo": "lorenamartinezparra77@gmail.com",
+      "comuna": "Chiguayante",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
