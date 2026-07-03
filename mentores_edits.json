@@ -922,6 +922,26 @@
       "foto": "",
       "anio": 2024,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "50ab327e-5960-4ec4-8a85-a2690935bdfe",
+      "nombre": "Jeannette Neira Oquenes",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Modelo de negocios",
+        "Branding y comunicación estratégica",
+        "Desarrollo comercial y ventas",
+        "Flujo de caja y planificación financiera",
+        "Formalización y compliance",
+        "Gestión de personas"
+      ],
+      "linkedin": "www.linkedin.com/in/jeannette-neira",
+      "correo": "indira.oquenes71@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": 2025,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
