@@ -1501,6 +1501,41 @@
       "foto": "",
       "anio": null,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "36b3b052-a378-49f0-9903-41df6d75bd79",
+      "nombre": "Matias Caballero",
+      "genero": "",
+      "areas": [
+        "Modelo de negocios",
+        "Propuesta de valor",
+        "Estrategia de escalamiento",
+        "Desarrollo de negocios",
+        "Planificación estratégica",
+        "Gestión de proyectos",
+        "Innovación de productos y servicios",
+        "Marketing digital",
+        "Branding y comunicación estratégica",
+        "Customer Experience",
+        "Estrategia creativa y posicionamiento de marca",
+        "Investigación de mercados y análisis de clientes",
+        "Innovación de procesos",
+        "Gestión de personas",
+        "Cultura organizacional",
+        "Desarrollo de talento",
+        "Liderazgo y empoderamiento",
+        "Gestión de equipos",
+        "Gestión de calidad y mejora continua",
+        "Sostenibilidad en negocios y proyectos",
+        "Economía circular",
+        "Innovación social"
+      ],
+      "linkedin": "https://www.linkedin.com/in/matías-antonio-caballero-sepúlveda-645a93105/",
+      "correo": "matias.caballero.sepulveda@gmail.com",
+      "comuna": "Concepción",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
