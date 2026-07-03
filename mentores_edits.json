@@ -547,6 +547,24 @@
       "foto": "",
       "anio": 2020,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "e4387212-39c3-40c2-bd87-5741edba8745",
+      "nombre": "Esteban Ramírez Moraga",
+      "genero": "",
+      "areas": [
+        "Desarrollo de negocios",
+        "Innovación de productos y servicios",
+        "Modelo de negocios",
+        "Inteligencia Artificial (IA)",
+        "Transformación digital y digitalización"
+      ],
+      "linkedin": "https://www.linkedin.com/in/esteban-ramirez-725b658",
+      "correo": "eramirez@intesal.cl",
+      "comuna": "Puerto Varas",
+      "foto": "",
+      "anio": null,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
