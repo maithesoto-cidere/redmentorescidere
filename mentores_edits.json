@@ -2050,6 +2050,23 @@
       "foto": "",
       "anio": 2020,
       "posicionFoto": "50% 50%"
+    },
+    {
+      "id": "30199ac8-0135-4bd0-9cf4-04c8f7af5ad7",
+      "nombre": "Rodrigo Jiménez Villalobos",
+      "genero": "",
+      "areas": [
+        "Gestión de proyectos",
+        "Desarrollo comercial y ventas",
+        "Formalización y compliance",
+        "Gestión de personas"
+      ],
+      "linkedin": "https://www.linkedin.com/in/rodrigojimenezvillalobos/",
+      "correo": "rodrigo230775@gmail.com",
+      "comuna": "San Gregorio",
+      "foto": "",
+      "anio": 2020,
+      "posicionFoto": "50% 50%"
     }
   ]
 }
