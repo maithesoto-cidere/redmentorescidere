@@ -11,16 +11,16 @@
     ],
     "logo": null,
     "layout": {
-      "fontScale": 120,
-      "sectionScale": 92,
-      "cardHeight": 178,
+      "fontScale": 128,
+      "sectionScale": 124,
+      "cardHeight": 169,
       "padY": 0,
       "padX": 18,
-      "cardGap": 9,
+      "cardGap": 13,
       "container": 1150,
       "photoW": 180,
       "initials": 17,
-      "radius": 8
+      "radius": 23
     }
   },
   "mentores": [
