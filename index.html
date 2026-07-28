@@ -911,7 +911,7 @@
     var extra = (m.areas||[]).length > 4 ? '<span class="chip">+'+((m.areas.length)-4)+' más</span>' : "";
     var links = "";
     if(m.linkedin) links += '<a href="'+esc(m.linkedin)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+ICONS.linkedin+'LinkedIn</a>';
-    if(m.correo) links += '<a href="mailto:'+esc(m.correo)+'" onclick="event.stopPropagation()">'+ICONS.mail+esc(m.correo)+'</a>';
+    if(m.correo && state.editMode) links += '<a href="mailto:'+esc(m.correo)+'" onclick="event.stopPropagation()">'+ICONS.mail+esc(m.correo)+'</a>';
     if(m.comuna) links += '<span>'+ICONS.pin+esc(m.comuna)+'</span>';
     var editControls = state.editMode ? (
       '<div class="card-edit-controls">' +
@@ -930,7 +930,7 @@
         photoBlock +
         '<div class="card-body">' +
           '<div class="card-name">'+esc(m.nombre)+'</div>' +
-          (m.anio ? '<div class="card-year">'+esc(m.anio)+'</div>' : '') +
+          (m.anio && state.editMode ? '<div class="card-year">'+esc(m.anio)+'</div>' : '') +
           '<div class="card-areas">'+areas+extra+'</div>' +
           '<div class="card-links">'+links+'</div>' +
         '</div>' +
@@ -982,7 +982,7 @@
     var areas = (m.areas||[]).map(function(a){ return '<span class="chip">'+esc(a)+'</span>'; }).join("");
     var links = "";
     if(m.linkedin) links += '<a class="btn-link" href="'+esc(m.linkedin)+'" target="_blank" rel="noopener">'+ICONS.linkedin+'Ver perfil en LinkedIn</a>';
-    if(m.correo) links += '<a class="btn-link secondary" href="mailto:'+esc(m.correo)+'">'+ICONS.mail+esc(m.correo)+'</a>';
+    if(m.correo && state.editMode) links += '<a class="btn-link secondary" href="mailto:'+esc(m.correo)+'">'+ICONS.mail+esc(m.correo)+'</a>';
     if(state.editMode) links += '<button type="button" class="btn-link edit" id="detailEditBtn">'+ICONS.edit+' Editar este perfil</button>';
     var pos = m.posicionFoto || "50% 50%";
     var bannerImg = m.foto
@@ -993,7 +993,7 @@
         bannerImg +
         '<div class="detail-banner-overlay"></div>' +
         '<div class="detail-banner-header">' +
-          (m.anio ? '<div class="detail-year">'+esc(m.anio)+'</div>' : '') +
+          (m.anio && state.editMode ? '<div class="detail-year">'+esc(m.anio)+'</div>' : '') +
           '<div class="detail-name">'+esc(m.nombre)+'</div>' +
         '</div>' +
       '</div>' +
